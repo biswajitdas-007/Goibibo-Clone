@@ -42,7 +42,7 @@ function BusDetails() {
         
     }
     return (
-        <div >
+        <div style={{ width:"60%"}}>
                                 <div className="bus-name">
                                     <div style={{height:"90px"}}>
                                         <div>
@@ -60,12 +60,13 @@ function BusDetails() {
                                         </div>
                                         </div>
                                         
-                                        <div style={{marginLeft:"60px"}}>
+                                        <div style={{marginLeft:"2%"}}>
                                             <a href="">Cancellation Policy</a>
                                         </div>
                                     </div>
+                                    <hr style={{width:"100%"}}/>
                                 </div>
-                                <hr style={{width:"100%"}}/>
+                                
                                 <div style={{ display:"flex"}} className="seats-selected">
                                     <div>
                                         <p>Seats Selected </p>
@@ -206,12 +207,12 @@ function BusDetails() {
                                                 <div>
                                                     <p style={{padding:"0", margin:"5px 0 0 0", fontWeight:"bold"}}>B3</p>
                                                 </div>
-                                                <div >
+                                                <div className=" after-text">
                                                     <p style={{padding:"0", margin:"5px 0 0 0"}}>Primary Passenger</p>
                                                 </div>
-                                                <div className="user-details-header after-text">
+                                                {/* <div className="user-details-header after-text">
                                                     <p style={{padding:"0", margin:"5px 0 0 0"}}></p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <hr />
                                             <div style={{padding:"10px", display:"flex", gap:"10px"}} id="user-details">

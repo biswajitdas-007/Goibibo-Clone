@@ -96,7 +96,7 @@ function Payment() {
                                         <div >
                                             <h3>Taxes & fees</h3>
                                         </div>
-                                        <div className="after-text">
+                                        <div>
                                             <h3>96</h3>
                                         </div>
                                     </div>
@@ -113,13 +113,13 @@ function Payment() {
                                 </div>
                                 </div>
                                 <div>
-                                    <div className="price-div" style={{ backgroundColor: "white",}}>
+                                <div  style={{ backgroundColor: "white",}}>
                                 <div className="offers-collapse price-collapse" onClick={() => {
                                     collapse("traveller-details")
                                     
                                 }}>
                                     <h2 style={{
-                                            paddingLeft: "20px", paddingTop: "20px", fontSize: "25px", fontWeight: "600",
+                                            paddingLeft: "20px", paddingTop: "20px", fontSize: "20px", fontWeight: "600",
                                        
                                         }}>
                                             OFFERS/GOCASH+ <span style={{marginLeft:"70px"}}>  </span>
