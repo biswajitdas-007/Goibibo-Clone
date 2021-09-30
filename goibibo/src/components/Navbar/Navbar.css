@@ -1,0 +1,77 @@
+.Navbar{
+    border: 1px solid gray;
+    background: #fff;
+    display: flex!important;
+    align-items: center;
+    padding: 10px 50px!important;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+    z-index: 900;
+}
+.NavbarLeft{
+    display: flex;
+    /* border: 2px solid orchid; */
+    width: 50%;
+}
+.NavbarLeft2{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    height: 50px;
+    width: 600px;
+    /* border: 2px solid orangered; */
+    margin-left: 50px;
+    grid-gap: 5%;
+}
+
+.NavbarRight{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 50px;
+    width: 600px;
+    /* border: 2px solid green; */
+    margin-left: 300px;
+     grid-gap: 1%;
+}
+.logo{
+    width: 110px;
+    height: 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    margin-left: -20px;
+}
+
+.NavbarLeft2 > a{
+    background-color: white;
+    border: 1px solid gray;
+    height: 20px;
+    width: 60px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 17px;
+    color: #777;
+    padding: 12px 15px;
+}
+
+.NavbarRight1{
+    background-color: white;
+    /* border: 1px solid gray; */
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 17px;
+    color: #777;
+    padding: 6px 15px;
+}
+
+.NavbarRight2{
+    background-color: white;
+    border: 1px solid gray;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 17px;
+    color: #777;
+    padding: 6px 15px;
+}
+

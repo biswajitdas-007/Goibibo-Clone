@@ -1,0 +1,313 @@
+.header-cont {
+  max-width: 100%;
+  padding: 10px;
+  background-color: #1965c8;
+  height: 200px;
+  color: white;
+}
+.header-cont > div:first-child {
+  margin-left: 3%;
+}
+.header-cont > div > div:first-child {
+  margin-bottom: 4.2%;
+}
+.header-cont > div > div span {
+  font-weight: 300;
+}
+.header-cont .bus-div:first-child {
+  border: 1px solid red;
+}
+hr {
+  background-color: rgb(203, 209, 206);
+  border: 0;
+  height: 1px;
+}
+.bus-div {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  margin-left: 3%;
+}
+.bus-div > div:first-child {
+  height: 150px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* border: 1px solid red; */
+}
+.bus-name {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.bus-name > div {
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 50px;
+}
+.bus-name > div > div {
+  display: flex;
+  /* border: 1px solid rebeccapurple; */
+  height: 100%;
+}
+.bus-name > div > div > h2 > span {
+  font-size: 15px;
+  font-weight: 400;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: greenyellow;
+}
+.bus-name > div > div {
+  padding: 0;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.bus-name > div > div > a {
+  height: 20px;
+  margin-top: 25%;
+  color: #2f7de2;
+  text-decoration: none;
+}
+.safety {
+  margin-top: 22px;
+  margin-left: 10px;
+  padding: 5px;
+  height: 20%;
+  background-color: rgb(176, 251, 207);
+}
+.bus-name > div > div > div p {
+  height: 20px;
+  font-size: 15px;
+  padding: 10px;
+  /* margin-top: 25px !important; */
+}
+.bus-name > div > div > div > img {
+  height: 18.94px;
+  width: 60px;
+  /* margin-top: 25px; */
+  margin-right: 5px;
+  /* margin-left: 5px; */
+}
+.bus-div > div {
+  height: 200px;
+
+  color: black;
+  padding: 10px;
+  padding-top: 0;
+  border-radius: 5px;
+}
+.bus-div > div:first-child {
+  background-color: #fff;
+}
+.departure-cont {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.departure {
+  /* margin-top: 5%; */
+  height: 200px;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  border-radius: 5px;
+}
+.departure > div {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+.time > p {
+  background-color: #2276e3;
+  width: 50%;
+  color: white;
+  padding: 5px;
+}
+.important-info > div {
+  display: flex;
+  margin-top: 15px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #ac6413;
+  background-color: #fef2e4;
+}
+.important-info > div div {
+  margin-top: 10px;
+}
+.img-cont > img {
+  background-color: #ac6413;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 20px;
+}
+.price-div > div > div:first-child > h2 {
+  font-weight: 500;
+}
+.price-div > div > div h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.price-fare {
+  /* border: 1px solid blue; */
+  height: 40px;
+  gap: 290px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.price-fare > h3 {
+  /* border: 1px solid red; */
+
+  height: 20px;
+  margin-top: 10px;
+}
+.price-fare > span {
+  /* border: 1px solid red; */
+  height: 20px;
+  margin-top: 5px;
+}
+.price-div {
+  max-width: 500px;
+  height: 100% !important;
+}
+.price-div > div > h2 {
+  font-weight: 300;
+}
+.base-fair {
+  height: 100%;
+}
+.price-fare-btn {
+  /* padding: 5px !important; */
+  height: 100% !important;
+  gap: 55%;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+.after-text > h3::after,
+.after-text > h2::after,
+.after-text > h1::after,
+.after-text > p::after,
+.offers-collapse > h2::after {
+  margin-left: 5px;
+  content: "\005E";
+  color: grey;
+  height: 100px;
+  width: 200px;
+}
+.after-text > h2::after {
+  margin-left: 80%;
+}
+.after-text > h1::after {
+  margin-left: 50%;
+}
+.offers-collapse > h2::after {
+  margin-left: 25%;
+}
+.price-fare-btn > div {
+  padding: 0 10px 0 10px;
+  height: 100%;
+}
+.price-fare-btn > div > h3 {
+  height: 20px !important;
+}
+.seats-selected {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.seats-selected > div:first-child {
+  font-weight: 100;
+  font-size: 15px;
+}
+.seats-selected > div:nth-child(2n) {
+  margin-left: 10px !important;
+  font-weight: 600 !important;
+}
+.insurance > div:last-child {
+  /* border: 1px solid red; */
+  margin-left: 10px;
+}
+.insurance-option {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.insurance-option > div {
+  width: 20%;
+}
+.discount {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: #2bbf78;
+  color: white;
+}
+.radio-accept > div:first-child {
+  margin: 30px 0 10px 0;
+}
+.radio-accept > div > span > label {
+  font-weight: bold;
+}
+#passenger {
+  border: 1px solid rgb(138, 138, 138);
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  margin: 15px auto;
+}
+.user-details-header > p::after {
+  content: "\005E";
+  margin-left: 390px;
+}
+.pay {
+  background-color: #fa6d38;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 20px;
+}
+.pay > div > h2 {
+  padding: 10px;
+}
+.offers {
+  margin-top: 30%;
+  border: 1px solid red;
+}
+.price-header {
+  padding: 10px 20px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid red; */
+  border-radius: 5px;
+}
+.bbNIlD {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(100, 122, 151);
+}
+
+.date {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.date > div:first-child > input {
+  height: 40px;
+  width: 380px;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-right: 0;
+}
+.date > div:last-child > button > img {
+  height: 37px;
+}
+.date > div:last-child > button {
+  border: 1px solid grey;
+  border-left: 0;
+}

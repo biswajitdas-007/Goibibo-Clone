@@ -1,0 +1,35 @@
+.onlineBusBooking{
+    width: 95%;
+    margin: auto;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+      text-align: left;
+}
+
+.onlineBusBooking > p:nth-child(1){
+   font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+     text-align: left;
+}
+
+.faq{
+    width: 95%;
+    margin: auto;
+    background: white;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.busBooking{
+     text-align: left;
+     margin-left: 70px;
+}
