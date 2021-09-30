@@ -1,6 +1,6 @@
 import React from 'react';
 import "./seats.css";
-import Logo from "./seat.svg";
+import Logo from "./public/seat.svg";
 export const Seats = ({ bus}) => {
  let c1=1
   return  (<>
