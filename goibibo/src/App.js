@@ -1,6 +1,6 @@
 import './App.css';
-import Bus from './components/Bus/Bus';
-import { Payment } from "./components/Payment/Payment";
+import Bus from './Components/Bus/Bus';
+import { Payment } from "./Components/Payment/Payment";
 import { Route } from "react-router-dom";
 function App() {
   return (
