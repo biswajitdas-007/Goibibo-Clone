@@ -26,6 +26,19 @@ function BusDetails() {
                 setHide(true)
             }
         }
+        if (value === "traveller-details") {
+            let div = document.getElementById("passenger");
+            let div1 = document.getElementById("emailAndMobile");
+            if (hide) {
+            div.style.display = "none";
+            div1.style.display = "none";
+            setHide(false)
+            } else {
+                div.style.display = "block";
+                div1.style.display = "block";
+                setHide(true)
+            }
+        }
         
     }
     return (
@@ -107,7 +120,7 @@ function BusDetails() {
                                     collapse("insurance")
                                     
                                 }}>
-                                    <h1 style={{paddingLeft:"20px", paddingTop:"20px"}}>TRIP INSURANCE AT 15 PER PERSON</h1>
+                                    <h4 style={{padding:"20px", fontSize:"20px"}}>TRIP INSURANCE AT 15 PER PERSON</h4>
                                 </div>
                                     <div id="hide-insurance" style={{backgroundColor:"white",paddingLeft:"20px",paddingTop:"20px", paddingBottom:"20px"}}>
                                         <div style={{display:"flex"}} className="insurance">
@@ -243,7 +256,7 @@ function BusDetails() {
                                             </div>
                                         </div>
                                         <hr />
-                                         <div style={{ backgroundColor: "white", padding:"10px" }}>
+                                         <div style={{ backgroundColor: "white", padding:"10px" }} id="emailAndMobile">
                                         <div style={{marginLeft:"10px"}}>
                                             <label htmlFor="" style={{fontSize:"18px", fontWeight:"300"}}>Email</label><br />
                                             <input type="text" style={{

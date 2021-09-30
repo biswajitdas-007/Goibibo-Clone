@@ -29,15 +29,28 @@ function Payment() {
                 setHide(true)
             }
         }
+        if (value === "traveller-details") {
+            console.log(value)
+            let div = document.getElementById("coupons")
+            if (hide) {
+            div.style.display = "none";
+            console.log(div)
+            setHide(false)
+            } else {
+                div.style.display = "block";
+                setHide(true)
+            }
+        }
         
     }
     return (
         <div>
             <Navbar/>
             <div>
-                <div>
+                <div className="main-div-cont">
                     <div className="header-cont">
                         <div>
+                            <div>
                             <div>
                                 <h2>Review your Booking</h2>
                             </div>
@@ -113,7 +126,7 @@ function Payment() {
                                         </h2>
                                     </div>
                                     <hr />
-                                    <div id="hide-travellerDetails" style={{ backgroundColor: "white" }}>
+                                    <div id="coupons" style={{ backgroundColor: "white" }}>
                                         <div id="passenger">
                                             <div style={{display:"flex", gap:"10px"}}>
                                                 <div>
@@ -212,15 +225,21 @@ function Payment() {
                             </div>
                             
                         </div>
+                        </div>
                         <div style={{
+                            height: "100%",
+                            marginTop:"95%",
+                        }}>
+
+                        </div>
+                    </div>
+                    <div style={{
                             display: "block",
-                            marginTop:"30%",
+                            // marginTop:"30%",
                             color: "black",
                         }}>
-                <Footer/>
-            </div>
-                    </div>
-                    
+                        <Footer/>
+                </div>
                 </div>
                 
             </div>

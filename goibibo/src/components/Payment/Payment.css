@@ -1,21 +1,35 @@
 .header-cont {
   max-width: 100%;
-  padding: 10px;
-  background-color: #1965c8;
-  height: 200px;
+  padding: 0px;
+  margin: 0;
+  top: 0;
+  height: 100%;
   color: white;
 }
 .header-cont > div:first-child {
-  margin-left: 3%;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  border: 1px solid #1965c8;
+  background-color: #1965c8;
 }
 .header-cont > div > div:first-child {
+  margin-left: 3%;
+}
+.header-cont > div > div > div:first-child {
   margin-bottom: 4.2%;
 }
-.header-cont > div > div span {
+.header-cont > div > div > div span {
   font-weight: 300;
 }
 .header-cont .bus-div:first-child {
   border: 1px solid red;
+}
+.main-div-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 hr {
   background-color: rgb(203, 209, 206);
@@ -188,7 +202,11 @@ hr {
   border: 2px solid rgb(204, 204, 204);
   border-radius: 5px;
 }
+.after-text {
+  cursor: pointer;
+}
 .after-text > h3::after,
+.after-text > h4::after,
 .after-text > h2::after,
 .after-text > h1::after,
 .after-text > p::after,
@@ -199,11 +217,17 @@ hr {
   height: 100px;
   width: 200px;
 }
+.after-text > h4::after {
+  margin-left: 47%;
+}
 .after-text > h2::after {
   margin-left: 80%;
 }
 .after-text > h1::after {
   margin-left: 50%;
+}
+.offers-collapse {
+  cursor: pointer;
 }
 .offers-collapse > h2::after {
   margin-left: 25%;
