@@ -1,0 +1,20 @@
+.Amenities {
+  display: flex;
+}
+.aimg {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.AText {
+  padding-left: 15px;
+}
+.photos {
+  width: 200px !important;
+  height: 200px !important;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.pText {
+  padding-left: 15px;
+}
