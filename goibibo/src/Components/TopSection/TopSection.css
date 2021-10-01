@@ -1,0 +1,81 @@
+.recent{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 25%) 0px 0.1rem 0.4rem 0px;
+    border-radius: 0.6rem;
+    padding: 20px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.bitcoin{
+    border-radius: 10px;
+}
+
+.busTicketHeading{
+    text-align: left;
+     margin-left: 50px;
+     color: white;
+}
+
+.top{
+    display: flex;
+}
+
+.login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 13%) 0px 0.2rem 1.2rem 0px;
+    position: relative;
+    z-index: 6;
+    border-radius: 1.2rem;
+    padding: 2.5rem;
+    margin-right: 2rem;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.recent > p{
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.rs1, .rs2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 13%) 0px 0.2rem 1.2rem 0px;
+    position: relative;
+    z-index: 6;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 0.2rem 1.2rem 0px;
+    margin-left: 30px;
+    width: 300px;
+    padding: 10px;
+}
+
+.rs1 > p:nth-child(2), .rs2 > p:nth-child(2){
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.recentSearches{
+    display: flex;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+.rs1 > p:nth-child(1), .rs2 > p:nth-child(1){
+    background-color: rgb(209,229,255);
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(34,130,233);
+    width: 200px;
+    margin-left: 50px;
+}
