@@ -1,16 +1,16 @@
 import React from 'react'
-import "./Amenities.css"
-import bottle from "./public/bottle.svg";
-import wifi from "./public/wifi.svg";
-import tv from "./public/tv.svg";
-import charge from "./public/charge.svg";
-import contact from "./public/contact.svg";
-import pillow from "./public/pillow.svg";
-import light from "./public/light.svg";
-import blankets from "./public/blankets.svg";
-import cctv from "./public/cctv.svg";
-import magazine from "./public/magazine.svg";
-import scanner from "./public/scanner.svg";
+import "../styles/Amenities.css"
+import bottle from "../public/bottle.svg";
+import wifi from "../public/wifi.svg";
+import tv from "../public/tv.svg";
+import charge from "../public/charge.svg";
+import contact from "../public/contact.svg";
+import pillow from "../public/pillow.svg";
+import light from "../public/light.svg";
+import blankets from "../public/blankets.svg";
+import cctv from "../public/cctv.svg";
+import magazine from "../public/magazine.svg";
+import scanner from "../public/scanner.svg";
 export const Amenities = ({ bus }) => {
     console.log("Amenities:", bus);
     return (

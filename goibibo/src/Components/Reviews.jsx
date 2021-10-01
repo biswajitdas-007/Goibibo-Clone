@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Reviews.css"
+import "../styles/Reviews.css"
 export const Reviews = ({bus}) => {
     return (
         <div className="rating">

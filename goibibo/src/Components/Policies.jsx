@@ -1,5 +1,5 @@
 import React from 'react'
-import "./policies.css"
+import "../styles/policies.css"
 export const Policies = ({bus}) => {
     return (
         <div>
