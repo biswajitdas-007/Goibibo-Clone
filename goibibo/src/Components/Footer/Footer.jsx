@@ -138,7 +138,7 @@ function Footer() {
                 <p>Online Bus booking on Goibibo</p>
                 <p>Travellers love exploring India by road. The spellbinding landscapes provide a deeper insight into the culture and beauty of India. Unlike flights, travelling by road is much more intimate. That's why buses are among the most preferred ways among travellers to explore India. Moreover, countless Indians make their <strong>bus booking </strong> everyday to travel to other states. Besides private operators, you will also find that Indian states have their own bus services. You can find buses running from one city to another throughout the day. So, an extensive network of buses is connecting the different parts of the country and offering an affordable and easier way of travelling.</p>
                 <p>
-                    Choosing the right online platform for bus booking is as important as choosing the right traveling partner for your trip. Goibibo is one the India's biggest and most trusted bus booking online platforms. You can make your bus booking on Goibibo and travel to your preferred destination.
+                    Choosing the right online platform for <strong>bus booking </strong> is as important as choosing the right traveling partner for your trip. Goibibo is one the India's biggest and most trusted <strong>bus booking </strong> online platforms. You can make your <strong>bus booking </strong> on Goibibo and travel to your preferred destination.
                 </p>
                 <a href="">Read More</a>
 
