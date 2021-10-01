@@ -44,6 +44,11 @@
     margin-left: 50px;
 }
 
+.faq > p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 .onlineBusBooking > p:nth-child(2){
     color: rgb(20, 24, 35);
     font: 400 1.2rem / 1.33 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -58,6 +63,11 @@
     -webkit-font-smoothing: antialiased;
     font-size: small;
     margin-top: 10px;
+}
+
+.onlineBusBooking > a{
+    font-size: small;
+    font-weight: 500;
 }
 
 .onlineBusBooking {

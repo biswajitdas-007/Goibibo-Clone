@@ -57,6 +57,7 @@
     margin-left: 30px;
     width: 300px;
     padding: 10px;
+    height: 100px;
 }
 
 .rs1 > p:nth-child(2), .rs2 > p:nth-child(2){
@@ -78,4 +79,5 @@
     color: rgb(34,130,233);
     width: 200px;
     margin-left: 50px;
+    margin-top: 20px;
 }
