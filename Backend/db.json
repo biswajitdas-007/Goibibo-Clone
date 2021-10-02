@@ -1,7 +1,7 @@
 [
     {
         "company": "Cauvery Travels",
-        "type": ["non-ac", "sleeper", "seater"],
+        "type": ["ac"],
         "source_t": "22:00",
         "source_l": "Kalladka",
         "destination_t": "05:00",
