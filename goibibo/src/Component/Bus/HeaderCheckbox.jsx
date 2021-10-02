@@ -2,7 +2,7 @@ import "./Header.css";
 import { useContext } from "react";
 import { AuthContext } from "../../context/FilterContext";
 
-export function Checkboxes() {
+export function HeaderCheckbox() {
     const { handlechange2,empty } = useContext(AuthContext);
     
     const handlechange = (e) => {

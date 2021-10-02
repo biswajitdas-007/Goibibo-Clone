@@ -1,5 +1,5 @@
 import "./Header.css"
-import { Checkboxes } from "./HeaderCheckbox"
+import { HeaderCheckbox } from "./HeaderCheckbox"
 import { Businfo } from "./Businfo"
 import { useContext } from "react";
 import { AuthContext } from "../../context/FilterContext";
@@ -43,8 +43,7 @@ export function Header1() {
                                         <a onClick={handleReset} className="dafNvA">Reset</a>
                                     </div>
                                     <div className="dZsEaZ">
-                                        <Checkboxes></Checkboxes>
-                                        
+                                        <HeaderCheckbox></HeaderCheckbox>
                                     </div>
 
                                 </div>

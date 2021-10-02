@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/seats.css";
+import {Link} from "react-router-dom"
 export const Seats = ({ bus }) => {
   let c1 = 1;
   let c2 = 1;
@@ -11,7 +12,10 @@ export const Seats = ({ bus }) => {
     setBook(!book);
   }
   React.useEffect(() => {
-  },[book])
+  }, [book]);
+
+
+ 
   return  (<>
     
         <>
@@ -139,7 +143,7 @@ export const Seats = ({ bus }) => {
                 </div>
               </div>
       </div>
-      <button className="proceed_button" disabled={!book} style={book?{backgroundColor:"rgb(255, 109, 56)"}:{backgroundColor:"rgb(199, 199, 194)"}}>{book?"Continue": "Select Seat to Proceed"}</button>
+      <Link to="/payment" bus={bus}><button  className="proceed_button" disabled={!book} style={book?{backgroundColor:"rgb(255, 109, 56)"}:{backgroundColor:"rgb(199, 199, 194)"}}>{book?"Continue": "Select Seat to Proceed"}</button></Link>
       <br />
       {book ?
         <>
