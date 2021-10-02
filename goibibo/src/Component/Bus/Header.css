@@ -300,12 +300,11 @@ a {
   background-color: rgb(243, 246, 248);
   width: 48%;
   padding: 0.7rem 0px;
-  font-size: 1.2rem;
-  -webkit-box-align: center;
+  font-size: 0.8rem;
   align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
   cursor: pointer;
+  font-weight: 600;
 }
 .bRgIPn {
   margin-right: 1rem;

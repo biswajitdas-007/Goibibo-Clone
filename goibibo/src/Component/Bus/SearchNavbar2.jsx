@@ -9,7 +9,7 @@ export function Navbar2() {
                             <div className="hElIQi">
                                  <label className="gVMaoU">From</label>
                             <div>
-                                <input className="bAOkFZ" type="text" name="" id="" />
+                                <input className="bAOkFZ" value="Bengaleru" type="text" name="" id="" />
                             </div>
                             </div>
                             <div className="cgCpSm">
@@ -21,7 +21,7 @@ export function Navbar2() {
                             <div className="hElIQi">
                                  <label className="gVMaoU">To</label>
                             <div>
-                                <input className="bAOkFZ" type="text" name="" id="" />
+                                <input className="bAOkFZ" value="Goa" type="text" name="" id="" />
                             </div>
                             </div>
                             <div className="jjMAvI">

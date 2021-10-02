@@ -1,18 +1,18 @@
 import React from "react";
 import { useEffect, useState,useContext } from "react"
-// import axios from "axios";
-import {Link} from "react-router-dom"
 import "./Businfo.css"
 import { AuthContext } from "../../context/FilterContext";
-import Navbar from "../../components/Navbar";
-import freeCancel from "../../public/freeCancel.svg";
-import liveTrack from "../../public/liveTrack.svg";
+import Navbar from "../../Components/Navbar";
+import {Link} from "react-router-dom"
+
+
 export function Businfo() {
      
-    const { fetchdata } = useContext(AuthContext);
+    const { fetchdata,empty } = useContext(AuthContext);
      const [data, SetData] = useState([])
-    const [seat_status, setseat_status] = useState(false);
+  const [seat_status, setseat_status] = useState(false);
     const [card, setCard] = useState([]);
+    
 
     // useEffect(() => {
     //     axios.get("http://localhost:3001/bus")
@@ -25,12 +25,21 @@ export function Businfo() {
     useEffect(() => {
         SetData(fetchdata)
         
-    },[fetchdata])
-    useEffect(() => {
+    },[])
+
+      useEffect(() => {
         console.log("card:",card)
     },[seat_status,card])
-
-    return (
+    return empty ? (
+        <div>
+            <div class="NoResultsstyles__NoResultsCard-sc-g9lvxg-0 bkNanZ">
+                <img src="https://gos3.ibcdn.com/busnoresultimg-1591617244.png" width="110px" height="110px" alt=""/>
+                    <p class="NoResultsstyles__ErrorMsg-sc-g9lvxg-3 dKWUaD">No bus found for the filter(s) applied.</p>
+                    <p class="NoResultsstyles__SmallText-sc-g9lvxg-2 jDppvj">Reset filter(s) to see all 10 buses.</p>
+                    <button class="NoResultsstyles__ResetButton-sc-g9lvxg-1 eTFrLs">RESET FILTERS</button>
+                    </div>
+        </div>
+    ) : (
         <>
             {console.log(fetchdata,data)}
             {fetchdata.map((el) => (
@@ -83,10 +92,10 @@ export function Businfo() {
                                         </p>
                                         <p className="total-seat-left">Total 5 seat left</p>
                                         <div className="btn-div">
-                                            <button onClick={() => {
+                                            <button className="btn-seat" onClick={() => {
                                                 setCard(el.id)
                                                             setseat_status(!seat_status)
-                                        }} className="btn-seat">
+                                        }}>
                                                 <div className="div-inside">
                                                     <span>{seat_status&&el.id===card?"HIDE SEAT":"SELECT SEAT"}</span>
                                                 </div>
@@ -101,8 +110,7 @@ export function Businfo() {
                     <div className="bottom-part">
                         <div className="jQlYhQ">
                             <div className="ftIqRK">
-                                
-                                <span>{ el.popular[0]?<img src={liveTrack} alt=""></img>:""}{el.popular[0]}{ el.popular[1]?<img src={freeCancel} alt=""/>:""} {el.popular[1]}</span>
+                                <span>{el.popular[0]} {el.popular[1]}</span>
                             </div>
                         </div>
                         <div className="jQlYhQ ">
@@ -112,7 +120,6 @@ export function Businfo() {
                             <Link className=" bQcslY" to="/bus/amenities" onClick={() => {
                                                             setseat_status(!seat_status)
                                         }}>{seat_status&&el.id===card?"":"Amenities, Policies &amp; Bus Details"}</Link>
-
                         </div>
                     </div>
                     {seat_status&&el.id===card?<Navbar bus={el}></Navbar>:""}

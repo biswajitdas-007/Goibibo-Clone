@@ -3,14 +3,15 @@ import { useContext } from "react";
 import { AuthContext } from "../../context/FilterContext";
 
 export function Checkboxes() {
-    const { handlechange2 } = useContext(AuthContext);
+    const { handlechange2,empty } = useContext(AuthContext);
     
     const handlechange = (e) => {
         handlechange2(e)
     }
 
     
-    return (
+    return(
+     
         <>
             <div className="jyLGrD">
                                              <div className="gZyCIS">

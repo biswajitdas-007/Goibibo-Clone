@@ -157,3 +157,8 @@ label {
 .bus_icon1 {
   padding-left: 15px;
 }
+label:checked {
+  background-color: rgb(154, 172, 196);
+  width: 16px;
+  height: 16px;
+}
