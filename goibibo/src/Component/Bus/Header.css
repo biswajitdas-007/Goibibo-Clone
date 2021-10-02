@@ -1,0 +1,340 @@
+.eLJizy {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0px;
+  flex-direction: column;
+}
+.jwnhYD {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(238, 244, 253);
+  max-width: 80rem;
+  margin: 0px auto;
+}
+.eMfvSP {
+  border-radius: 0.4rem;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.tihIM {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.iLdzQD {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+.eMfvSP {
+  border-radius: 0.4rem;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.bolzYx {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.leftside-start {
+  position: sticky;
+  bottom: 0px;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  background-color: rgb(238, 244, 253);
+  padding-right: 1rem;
+  padding-top: 3.7rem;
+}
+.fzifhO {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+}
+.jfGVSI {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 3rem 2rem;
+  border-bottom: 1px solid rgb(225, 231, 238);
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.dIWGnO {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.8rem;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.jfgoXB {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgb(225, 231, 238);
+}
+.dJEHuf {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.dIeNlA {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1rem;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+.dafNvA {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 0.8rem;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+a {
+  color: grey;
+}
+.dZsEaZ {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.jyLGrD {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+.gZyCIS {
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cOVZOW {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.drSPWq {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0px;
+  width: 0px;
+}
+.cXxQSq {
+  position: relative;
+  height: 17px;
+  width: 17px;
+  background: white;
+  border: 1px solid rgb(100, 122, 151);
+  border-radius: 2px;
+}
+.jRThmT {
+  display: flex;
+  background-color: rgb(243, 246, 248);
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  min-width: 2.5rem;
+  height: 2.5rem;
+}
+.hVKAaW {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  max-width: 22.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.righside-start {
+  display: flex;
+  flex-flow: column wrap;
+  width: 75%;
+  padding-left: 1rem;
+}
+.dWsOPQ {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.miEV {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dxDNBd {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cpuulD {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.4rem;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+.sortby-div {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 15%;
+}
+.sortny-span {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Quicksand;
+}
+.hAYLvq {
+  display: flex;
+  flex-flow: row wrap;
+  width: 85%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.span-br {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.span-br:hover {
+  color: blue;
+}
+.cnOKAm {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+.cXxQSq::after {
+  display: none;
+  content: "";
+  left: 6px;
+  top: 2px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border-style: solid;
+  color: white;
+  border-image: initial;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.drSPWq:checked ~ .Checkboxstyles__Checkmark-sc-17an8c7-1::after {
+  display: block;
+}
+.drSPWq:checked ~ .Checkboxstyles__Checkmark-sc-17an8c7-1 {
+  background: rgb(34, 118, 227);
+  border: none;
+}
+.faQIkU {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.djZxHm {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.5rem 0px;
+  border-radius: 0.3rem;
+  background-color: rgb(243, 246, 248);
+  width: 48%;
+  padding: 0.7rem 0px;
+  font-size: 1.2rem;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.bRgIPn {
+  margin-right: 1rem;
+  display: flex;
+}
+.dywndb {
+  width: -2.5rem;
+  height: 1.5rem;
+  fill: rgb(100, 122, 151);
+}
+.dvsKAb {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(100, 122, 151);
+}
+.fGuEds {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(100, 122, 151);
+}
+.lmmNpL {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(100, 122, 151);
+}
+.font {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.bold {
+  font-weight: bold;
+}

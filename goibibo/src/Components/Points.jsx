@@ -1,8 +1,10 @@
 import React from 'react';
 import "../styles/point.css";
 export const Points = ({bus}) => {
-    return (
-        <div>
+  return (
+      
+    <div className="points">
+      <div>
             <div className="boarding">
               <h3 style={{marginBottom: "10px"}}>Boarding Point</h3>
                       <div className="boarding_point">
@@ -24,8 +26,11 @@ export const Points = ({bus}) => {
                                   <label className="point">{i.point}</label><br />
                                   <label className="info">{i.info}</label><br />
                               </div>))}
-                              </div>
-            </div>
-            </div>
+                      </div>
+        </div>
+        </div>
+        <br/>
+      </div>
+      
     )
 }

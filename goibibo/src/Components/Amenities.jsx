@@ -12,10 +12,9 @@ import cctv from "../public/cctv.svg";
 import magazine from "../public/magazine.svg";
 import scanner from "../public/scanner.svg";
 export const Amenities = ({ bus }) => {
-    console.log("Amenities:", bus);
     return (
         <div>
-            <div style={{ marginLeft: "20px" }}>Amenities</div>
+            <div style={{ marginLeft: "40px" }}>Amenities</div>
             <br/>
             <div className="Amenities">
                 
@@ -53,6 +52,7 @@ export const Amenities = ({ bus }) => {
                 <img className="photos" src="https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic/20218_1093_3.png" alt=""></img>
             <img  className="photos" src="https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic/20218_1093_1.png" alt=""></img>
             <img className="photos" src="https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic/3620_1060_2.png" alt=""></img>
+            <img className="photos"  src="https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic/9365_1087_3.png" alt=""></img>
         </div>
     )
 }

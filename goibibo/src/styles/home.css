@@ -21,8 +21,16 @@ a:hover {
 .ToolBar {
   position: relative;
   height: 30px;
-  width: 900px;
+  width: 885px;
   align-items: center;
   background: rgb(239, 243, 248);
   border-radius: 2rem;
+  justify-self: space-between;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(239, 243, 248);
+  padding: 1rem 2rem;
+  width: 100%;
 }

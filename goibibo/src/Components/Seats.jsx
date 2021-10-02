@@ -65,14 +65,14 @@ export const Seats = ({ bus }) => {
                 <path stroke="#2BAC36" strokeLinecap="round" d="M10 10L2 2m0 8l8-8"></path></g>
             </svg></div><span style={{ marginLeft: "5px", float: "left" }}>Blocked for social Distancing</span>
           
-          
+      <br />
+      <br/>
         
           <div className="seats">
             <div className="seat_selection">
               <aside   className="header">
                 <span className="upper">UPPER</span>
               </aside>
-              {console.log("seats",bus.seats)}
           <div className="bus_icon">{bus.seats.map((e) => (
           
             (e.pos.includes("U") ? (
@@ -150,7 +150,8 @@ export const Seats = ({ bus }) => {
           <span className="cost">₹{ cost}</span></div>
         </>
         : ""}
-      
+      <br />
+      <br/>
     </div>
     
       
