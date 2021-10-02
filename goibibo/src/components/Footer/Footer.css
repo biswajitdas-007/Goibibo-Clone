@@ -2,12 +2,11 @@
     width: 95%;
     margin: auto;
     background: white;
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-top: 100px;
+    border-radius: 5px;
+    margin-top: 50px;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
      z-index: 900;
-      text-align: left;
+    text-align: left;
 }
 
 .onlineBusBooking > p:nth-child(1){
@@ -16,20 +15,239 @@
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-     text-align: left;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .faq{
     width: 95%;
     margin: auto;
     background: white;
-    border: 1.5px solid gray;
-    border-radius: 10px;
-    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
     text-align: left;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.busBooking, .popularBusHeading, .popularBusRoutesHeading{
+     text-align: left;
+     margin-left: 50px;
 }
 
-.busBooking{
-     text-align: left;
-     margin-left: 70px;
+.popularBusHeading {
+    margin-bottom: 20px;
+}
+
+.faq > h3, .faq > p, .onlineBusBooking > p, .onlineBusBooking > a {
+    margin-left: 50px;
+}
+
+.faq > p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.onlineBusBooking > p:nth-child(2){
+    color: rgb(20, 24, 35);
+    font: 400 1.2rem / 1.33 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.onlineBusBooking > p:nth-child(3){
+    color: rgb(20, 24, 35);
+    font: 400 1.2rem / 1.33 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.onlineBusBooking > a{
+    font-size: small;
+    font-weight: 500;
+}
+
+.onlineBusBooking {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.bottomLinks{
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(6, 16.5%);
+    padding: 50px;
+}
+
+.bottomLinks > div > p:nth-child(1){
+   font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: bolder;
+    font-family: quicksand;
+    margin-left: 30px;
+}
+
+.bottomLinks > div > p:nth-child(2){
+   font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: bolder;
+    font-family: quicksand;
+    margin-left: 30px;
+}
+
+.bottomLinks > div > a {
+    margin-left: 30px;
+}
+
+.popularBusOperators{
+  width: 95%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+
+.popularBusRoutes{
+    width: 95%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    grid-gap: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+
+.busLogo{
+ display: flex;
+}
+
+.busLogo1{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+a:hover {
+color: orangered !important;
+}
+
+.busLogo > div > h4{
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.popular1{
+  font-weight: 600;
+  font-size: 20px;
+  color: #166bd3;
+  display: flex;
+}
+.popular2{
+  font-weight: 600;
+  font-size: 20px;
+  color: #166bd3;
+  display: flex;
+  margin-left: -320px;
+}
+
+.links > a{
+    color: #166bd3;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    font-family: quicksand;
+}
+
+.bottom1{
+    margin: auto;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+     display: grid;
+     grid-template-columns: repeat(3,30%);
+}
+
+.socialMedia > img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.store > img{
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+}
+
+.paymentIcon > img{
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+}
+
+.paymentIcon{
+    margin-top: 0px;
+}
+
+.bottom2{
+    margin: auto;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+     z-index: 900;
+     display: flex;
+     padding: 20px;
+}
+
+.bottom2 > img{
+    height: 30px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.bottom2 > p{
+    margin-left: 750px;
+    color: gray;
+    font-size: small;
+}
+
+.to{
+    margin-top: 0px;
+}
+
+.popularBusRoutesHeading{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }

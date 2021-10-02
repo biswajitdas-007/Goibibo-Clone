@@ -42,12 +42,12 @@ function BusDetails() {
         
     }
     return (
-        <div style={{ width:"60%"}}>
+        <div style={{ width: "60%" }}>
                                 <div className="bus-name">
-                                    <div style={{height:"90px"}}>
-                                        <div>
-                                            <div>
-                                                <h2 style={{marginBottom:"0",paddingBottom:"0", fontWeight:"500" }}>Shree Nilamadahba travels </h2>
+                                    <div style={{height:"90px"}} >
+                                        <div className="details">
+                                            <div className="bus-name-details">
+                                                <h2 style={{marginBottom:"0",paddingBottom:"0", fontWeight:"500" , padding:"0",}}>Shree Nilamadahba travels </h2>
                                                 <p style={{marginTop:"0", }}>A/C Seater / Sleeper (2+1)</p>
                                             </div>
                                             
@@ -60,7 +60,7 @@ function BusDetails() {
                                         </div>
                                         </div>
                                         
-                                        <div style={{marginLeft:"2%"}}>
+                                        <div >
                                             <a href="">Cancellation Policy</a>
                                         </div>
                                     </div>
