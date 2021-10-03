@@ -1,21 +1,39 @@
 import React from 'react';
 import "../../styles/seats.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import {AuthContext} from "../../Context/FilterContext"
+
 export const Seats = ({ bus }) => {
-  console.log(bus)
   let c1 = 1;
   let c2 = 1;
   const [book, setBook] = React.useState(false);
   const [seat, setseat] = React.useState("");
-  const [cost,setcost]=React.useState("");
-  
+  const [cost, setcost] = React.useState("");
+  const { handle_seat } = React.useContext(AuthContext);
+  const [b1, setb1] = React.useState("");
+  const [b2, setb2] = React.useState("");
+  const [d1, setd1] = React.useState("");
+  const [d2, setd2] = React.useState("");
+  let arr = []
   const handleChange = () => {
     setBook(!book);
   }
   React.useEffect(() => {
   }, [book]);
-
-
+  const handle_boarding_point = (e) => {
+    setb1(e.target.value);
+    setb2(e.target.id)
+    console.log("handle_boarding_point:",e.target.value,e.target)
+  }
+  const handle_dropping_point = (e) => {
+    setd1(e.target.value);
+    setd2(e.target.id);
+    console.log("handle_dropping_point:",e.target.value)
+}
+  const handle_seat_click = () => {
+    arr.push(cost,seat,b1,b2,d1,d2);
+  handle_seat(arr)
+}
  
   return  (<>
     
@@ -31,7 +49,7 @@ export const Seats = ({ bus }) => {
                         <form >
                               {bus.boarding_point.map((i) =>
                               (<div >
-                                  <input className="input"type="radio" id={i.point} name="bus"  ></input>
+                                  <input className="input"type="radio" id={i.time} name="bus" value={i.point} onChange={handle_boarding_point}  ></input>
                                     <label className="time">{i.time}</label><br />
                                   <label className="point">{i.point}</label><br />
                                   <label className="info">{i.info}</label><br />
@@ -45,7 +63,7 @@ export const Seats = ({ bus }) => {
                         <form >
                               {bus.dropping_point.map((i) =>
                               (<div >
-                                  <input className="input" value={i.id} type="radio"  name="bus"  ></input>
+                                  <input className="input" value={i.point} type="radio" id={i.time} name="bus" onChange={handle_dropping_point}  ></input>
                                     <label className="time">{i.time}</label><br />
                                   <label className="point">{i.point}</label><br />
                                   <label className="info">{i.info}</label><br />
@@ -144,7 +162,9 @@ export const Seats = ({ bus }) => {
                 </div>
               </div>
       </div>
-      <Link to="/payment" bus={bus}><button  className="proceed_button" disabled={!book} style={book?{backgroundColor:"rgb(255, 109, 56)"}:{backgroundColor:"rgb(199, 199, 194)"}}>{book?"Continue": "Select Seat to Proceed"}</button></Link>
+      
+      <Link to="/payment" bus={bus}><button onClick={handle_seat_click} className="proceed_button" disabled={!book} style={book?{backgroundColor:"rgb(255, 109, 56)"}:{backgroundColor:"rgb(199, 199, 194)"}}>{book?"Continue": "Select Seat to Proceed"}</button></Link>
+      
       <br />
       {book ?
         <>
