@@ -1,0 +1,38 @@
+.DrawerItem {
+  color: #000;
+  margin-left: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  @media all and (max-width: 620px) {
+    margin-left: 20px;
+  }
+}
+a:hover {
+  color: red;
+}
+.Links {
+  display: flex;
+  font-weight: 300;
+  position: absolute;
+  top: 5px;
+  left: -3%;
+  letter-spacing: 1px;
+}
+.ToolBar {
+  position: relative;
+  height: 30px;
+  width: 885px;
+  align-items: center;
+  background: rgb(239, 243, 248);
+  border-radius: 2rem;
+  justify-self: space-between;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(239, 243, 248);
+  padding: 1rem 2rem;
+  width: 100%;
+}

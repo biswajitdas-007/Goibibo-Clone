@@ -169,13 +169,14 @@ function BusDetails() {
                                         </div>
                                         <div className="radio-accept">
                                             <div>
-                                                <input type="radio" name="yes" /> <span><label>Yes, Secure my trip. I agree to the given <a href="/" style={{
+                                                <input type="radio" name="yes" /> <span><label style={{fontWeight: "bold", color:"#000000"}}>Yes, Secure my trip. I agree to the given <a href="/" style={{
                                                     color: "#2276E3",
-                                                    fontWeight:"400",
+                                fontWeight: "400",
+                                                    marginLeft:"10px"
                                                 }}>Terms and conditon</a></label></span>
                                             </div>
                                             <div>
-                                                <input type="radio" name="yes"/> <span><label>No, I am willing to risk my trip.</label></span>
+                                                <input type="radio" name="yes"/> <span><label style={{fontWeight: "bold", color:"#000000"}}>No, I am willing to risk my trip.</label></span>
                                             </div>
                                         </div>
                                 </div>

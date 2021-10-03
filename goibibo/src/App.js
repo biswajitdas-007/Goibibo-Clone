@@ -13,6 +13,9 @@ function App() {
       <Route path="/bus">
         <BusDetails />
       </Route>
+      <Route path="/payment">
+        <Payment />
+      </Route>
     </div>
   );
 }

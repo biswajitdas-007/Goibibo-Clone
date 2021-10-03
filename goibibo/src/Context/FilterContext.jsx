@@ -14,7 +14,7 @@ export function AuthProvider({ children }) {
         axios.get("http://localhost:3001/bus")
             .then((res) => {
                 
-                //console.log(res.data.data);
+                console.log("data: ",res.data.data);
                 setfetchData(res.data.data);
                 setOption(res.data.data);
             })

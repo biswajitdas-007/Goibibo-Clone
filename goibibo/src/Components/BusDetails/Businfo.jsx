@@ -3,7 +3,8 @@ import { useEffect, useState,useContext } from "react"
 import "./Businfo.css"
 import { AuthContext } from "../../Context/FilterContext";
 import Navbar from "../Navbar";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { SelectSeatNavbar } from "./SelectSeatNavber";
 
 
 export default function Businfo() {
@@ -122,7 +123,7 @@ export default function Businfo() {
                                         }}>{seat_status&&el.id===card?"":"Amenities, Policies &amp; Bus Details"}</Link>
                         </div>
                     </div>
-                    {seat_status&&el.id===card?<Navbar bus={el}></Navbar>:""}
+                    {seat_status&&el.id===card?<SelectSeatNavbar bus={el}></SelectSeatNavbar>:""}
                 </div>
                 
                

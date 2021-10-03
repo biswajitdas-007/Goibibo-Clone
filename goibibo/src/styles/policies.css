@@ -1,0 +1,20 @@
+.note {
+  color: red;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.note_points {
+  border: 1px solid #e6e6e6;
+  width: 850px;
+  font-size: 14px;
+  text-align: -webkit-match-parent;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.note1 {
+  padding-left: 60px;
+  margin-bottom: 30px;
+}
+.note_points_inside {
+  margin: 15px;
+}

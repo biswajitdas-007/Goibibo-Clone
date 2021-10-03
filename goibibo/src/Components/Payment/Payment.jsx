@@ -235,7 +235,7 @@ function Payment() {
                     </div>
                     <div style={{
                             display: "block",
-                            marginTop:"5%",
+                            marginTop:"15%",
                             color: "black",
                         }}>
                         <Footer/>
