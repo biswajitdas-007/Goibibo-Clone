@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect, useState,useContext } from "react"
 import "./Businfo.css"
 import { AuthContext } from "../../Context/FilterContext";
-import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
 import { SelectSeatNavbar } from "./SelectSeatNavber";
 

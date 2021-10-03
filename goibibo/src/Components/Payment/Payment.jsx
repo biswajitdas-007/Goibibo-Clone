@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./Payment.css";
 import { BusDetails } from "./BusDetails";
-import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer"
 function Payment() {
     const [hide, setHide] = useState(true)
@@ -22,7 +21,6 @@ function Payment() {
             let div = document.getElementById("hide-insurance")
             if (hide) {
             div.style.display = "none";
-            
             setHide(false)
             } else {
                 div.style.display = "block";
@@ -30,11 +28,9 @@ function Payment() {
             }
         }
         if (value === "traveller-details") {
-            console.log(value)
             let div = document.getElementById("coupons")
             if (hide) {
             div.style.display = "none";
-            console.log(div)
             setHide(false)
             } else {
                 div.style.display = "block";
@@ -45,7 +41,6 @@ function Payment() {
     }
     return (
         <div>
-            <Navbar/>
             <div>
                 <div className="main-div-cont">
                     <div className="header-cont">

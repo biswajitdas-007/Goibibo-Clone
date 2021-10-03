@@ -1,7 +1,8 @@
 import { useState } from "react"
 import "./Payment.css"
 function BusDetails() {
-    const [hide, setHide] = useState(true)
+    const [hide, setHide] = useState(true);
+    const [payment, setPayment] = useState(false);
     const collapse = (value) => {
         
         if (value === "price") {
@@ -41,6 +42,14 @@ function BusDetails() {
         }
         
     }
+    const displayPayment = () => {
+        // window.backgroundColor = "#303132";
+        setPayment(true)
+        const div = document.getElementById('payment-success');
+        setTimeout(() => {
+            setPayment(false)
+        },10000)
+  }
     return (
         <div style={{ width: "60% !important" ,display:"flex", flexDirection:"column"}}>
             <div className="bus-name">
@@ -234,7 +243,7 @@ function BusDetails() {
                                                 </select>
                                                 </div>
                                                 <div>
-                                                    <label htmlFor="" style={{fontSize:"18px", fontWeight:"300"}}>Full Name</label><br />
+                                                    <label htmlFor="" style={{fontSize:"18px", fontWeight:"300",width:"100px"}}>Full Name</label><br />
                                                 <input type="text" style={{
                                                     border: "1px solid rgb(138, 138, 138)",
                                                     padding: "10px",
@@ -310,9 +319,12 @@ function BusDetails() {
                                     </div>
                                     </div>
                                 </div>
-                                <div className="pay">
+                                <div className="pay" onClick={displayPayment}>
                                     <div>
                                         <h2>Pay 1470</h2>
+                    {payment?<div id="payment-success" className="payment-successful">
+                                <img src="https://www.farehawker.com/airlines-group-booking/indigo/img/success.gif" alt="" />
+          </div>:console.log("Payment Pending")}
                                     </div>
                                 </div>
                                 <div style={{padding:"10px" }}></div>

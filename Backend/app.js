@@ -1,10 +1,10 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const connect = require("./db/conn.js");
+const connect = require("./src/db/conn");
 var cors = require("cors");
 
-const busRouter = require("./controllers/bus.controller.js");
+const busRouter = require("./src/controllers/bus.controller");
 
 const port = process.env.PORT || 3001;
 app.use(express.json());
