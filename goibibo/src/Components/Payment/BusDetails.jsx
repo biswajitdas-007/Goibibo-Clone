@@ -6,6 +6,7 @@ function BusDetails() {
     const [hide, setHide] = useState(true);
        const { seat1 } = React.useContext(AuthContext);
 console.log("seat1",seat1);
+    const [payment, setPayment] = useState(false);
     const collapse = (value) => {
         
         if (value === "price") {
@@ -45,6 +46,14 @@ console.log("seat1",seat1);
         }
         
     }
+    const displayPayment = () => {
+        // window.backgroundColor = "#303132";
+        setPayment(true)
+        const div = document.getElementById('payment-success');
+        setTimeout(() => {
+            setPayment(false)
+        },10000)
+  }
     return (
         <div style={{ width: "60% !important" ,display:"flex", flexDirection:"column"}}>
             <div className="bus-name">
@@ -238,7 +247,7 @@ console.log("seat1",seat1);
                                                 </select>
                                                 </div>
                                                 <div>
-                                                    <label htmlFor="" style={{fontSize:"18px", fontWeight:"300"}}>Full Name</label><br />
+                                                    <label htmlFor="" style={{fontSize:"18px", fontWeight:"300",width:"100px"}}>Full Name</label><br />
                                                 <input type="text" style={{
                                                     border: "1px solid rgb(138, 138, 138)",
                                                     padding: "10px",
@@ -255,7 +264,7 @@ console.log("seat1",seat1);
                                                     padding: "10px",
                                                     borderRadius: "5px",
                                                     appearance: "none",
-                                                   
+                                                   width:"100%",
                                                     marginTop:"10px"
                                                 }} placeholder="Enter age" />
                                                 </div>
@@ -314,9 +323,12 @@ console.log("seat1",seat1);
                                     </div>
                                     </div>
                                 </div>
-                                <div className="pay">
+                                <div className="pay" onClick={displayPayment}>
                                     <div>
                                         <h2>Pay {seat1[0]}</h2>
+                    {payment?<div id="payment-success" className="payment-successful">
+                                <img src="https://www.farehawker.com/airlines-group-booking/indigo/img/success.gif" alt="" />
+          </div>:console.log("Payment Pending")}
                                     </div>
                                 </div>
                                 <div style={{padding:"10px" }}></div>

@@ -153,18 +153,19 @@ a {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
+  width: fit-content;
 }
 .drSPWq {
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 0px;
-  width: 0px;
+  height: 50px;
+  width: 47px;
 }
 .cXxQSq {
   position: relative;
-  height: 17px;
-  width: 17px;
+  height: 18px;
+  width: 23px;
   background: white;
   border: 1px solid rgb(100, 122, 151);
   border-radius: 2px;
@@ -260,11 +261,11 @@ a {
 .cXxQSq::after {
   display: none;
   content: "";
-  left: 6px;
+  left: 8px;
   top: 2px;
   position: absolute;
-  width: 5px;
-  height: 10px;
+  width: 6px;
+  height: 12px;
   border-style: solid;
   color: white;
   border-image: initial;

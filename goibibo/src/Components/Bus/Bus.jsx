@@ -1,12 +1,10 @@
 import React from "react";
 import "./Bus.css";
-import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 export default function Bus() {
     return (
-        <div style={{border:"1px solid red", padding:"0", margin:"0"}}>
-            <Navbar />
+        <div style={{padding:"0", margin:"0"}}>   
             <div className="Home">
              <div className="background-col" ></div>
             <div className="background-col2"></div>

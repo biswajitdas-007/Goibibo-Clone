@@ -80,7 +80,10 @@ const appVerifier = window.recaptchaVerifier;
     const displaySignIn = () => {
         // window.backgroundColor = "#303132";
       document.getElementById('id01').style.display = 'block';
-    }
+  }
+  const handleToken = () => {
+    setToken(false);
+  }
     return (
         <div>
             <div className="class">
@@ -88,16 +91,16 @@ const appVerifier = window.recaptchaVerifier;
             <ul class="happy-nav">
                 <li class="  ">
                     <span className="header-sprite nav-icon-flights gr-append-right5">
-                    </span>Flights</li><li class="  ">
+                    </span><Link to="/flights">Flights</Link></li><li class="  ">
                 
                     <span className="header-sprite nav-icon-hotels gr-append-right5">
-                    </span>Hotels</li><li class="  ">
+                    </span><Link to="/hotels">Hotels</Link></li><li class="  ">
                 
                     <span className="header-sprite nav-icon-trains gr-append-right5">
-                    </span>Trains</li><li class="  ">
+                    </span><Link to="/trains">Trains</Link></li><li class="  ">
                 
                     <span className="header-sprite nav-icon-cabs gr-append-right5">
-                    </span>Cabs</li><li class="active  ">
+                    </span><Link to="/cabs">Cabs</Link></li><li class="active  ">
                 
                     <span className="header-sprite nav-icon-bus gr-append-right5">
                     </span><Link to="/bus">Bus</Link></li>
@@ -117,7 +120,7 @@ const appVerifier = window.recaptchaVerifier;
                     <span className="header-sprite user-icon gr-append-right5">
                     </span>
                     <div className="gr-font10" role="presentation" id="get_sign_in">
-                {token?<p className="gr-cap-text gr-blue-text gr-bold" onClick={displayNone}>Signout</p>:<p className="gr-cap-text gr-blue-text gr-bold" onClick={displaySignIn}>Login or Signup</p>}
+                {token?<div onClick={handleToken}><p className="gr-cap-text gr-blue-text gr-bold" >Signout</p></div>:<p className="gr-cap-text gr-blue-text gr-bold" onClick={displaySignIn}>Login or Signup</p>}
                     </div></div></div>
             
             <div id="id01" className="sign-in">

@@ -1,12 +1,12 @@
 import BusDetailsNav from "./BusDetailsNav";
-import Navbar from "../Navbar/Navbar";
-import {BusDetailsBody} from "./BusDetailsBody"
+import { BusDetailsBody } from "./BusDetailsBody";
+import Footer from "../Footer/Footer"
 function BusDetails() {
     return (
         <div>
-            <Navbar/>
             <BusDetailsNav />
-            <BusDetailsBody/>
+            <BusDetailsBody />
+            <Footer/>
         </div>
     );
 }
