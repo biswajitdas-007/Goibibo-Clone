@@ -1,7 +1,11 @@
-import { useState } from "react"
-import "./Payment.css"
+import React,{ useState } from "react"
+import "./Payment.css";
+import {AuthContext} from "../../Context/FilterContext"
+
 function BusDetails() {
     const [hide, setHide] = useState(true);
+       const { seat1 } = React.useContext(AuthContext);
+console.log("seat1",seat1);
     const [payment, setPayment] = useState(false);
     const collapse = (value) => {
         
@@ -81,7 +85,7 @@ function BusDetails() {
                                         <p>Seats Selected </p>
                                     </div>
                                     <div>
-                                        <p>.B3 <span>.18</span></p>
+                                        <p> <span>{seat1[1]}</span></p>
                                     </div>
                                 </div>
                                 <div className="departure-cont">
@@ -90,27 +94,27 @@ function BusDetails() {
                                         <p>Boarding point details </p>
                                     </div>
                                     <div className="time">
-                                            <p>9:00 PM, 28th Sep 2021</p>
+                                            <p>{seat1[3]} , 28th Sep 2021</p>
                                     </div>
                                     <div>
-                                        <h2>Bermunda Bus Stand</h2>
+                        <h2>{seat1[2]}</h2>
                                         </div>
                                         <div>
-                                            <p>Bermunda Bus Stand</p>
+                                            <p>{seat1[2]}</p>
                                         </div>
                                 </div>
                                 <div className="departure">
                                 <div style={{ marginTop: "30px" }}>
-                                        <p>Boarding point details </p>
+                                        <p>Dropping point details </p>
                                     </div>
                                     <div className="time">
-                                        <p>9:00 PM, 28th Sep 2021</p>
+                                        <p>{seat1[5]}, 28th Sep 2021</p>
                                     </div>
                                     <div>
-                                        <h2>Bermunda Bus Stand</h2>
+                                        <h2>{seat1[4]}</h2>
                                         </div>
                                         <div>
-                                            <p>Bermunda Bus Stand</p>
+                                            <p>{seat1[4]}</p>
                                         </div>
                                 </div>
                                 </div>
@@ -260,7 +264,7 @@ function BusDetails() {
                                                     padding: "10px",
                                                     borderRadius: "5px",
                                                     appearance: "none",
-                                                   
+                                                   width:"100%",
                                                     marginTop:"10px"
                                                 }} placeholder="Enter age" />
                                                 </div>
@@ -321,7 +325,7 @@ function BusDetails() {
                                 </div>
                                 <div className="pay" onClick={displayPayment}>
                                     <div>
-                                        <h2>Pay 1470</h2>
+                                        <h2>Pay {seat1[0]}</h2>
                     {payment?<div id="payment-success" className="payment-successful">
                                 <img src="https://www.farehawker.com/airlines-group-booking/indigo/img/success.gif" alt="" />
           </div>:console.log("Payment Pending")}

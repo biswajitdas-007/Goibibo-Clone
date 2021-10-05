@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useState,useContext } from "react";
 import "./Payment.css";
 import { BusDetails } from "./BusDetails";
-import Footer from "../Footer/Footer"
+
+import Footer from "../Footer/Footer";
+import {AuthContext} from "../../Context/FilterContext"
+
 function Payment() {
-    const [hide, setHide] = useState(true)
+    const [hide, setHide] = useState(true);
+           const { seat1 } = useContext(AuthContext);
+
     const collapse = (value) => {
         
         if (value === "price") {
@@ -50,7 +55,7 @@ function Payment() {
                                 <h2>Review your Booking</h2>
                             </div>
                             <div>
-                                <h2>Bhubaneswar - Kolkata, West Bengal | <span>28th September 2021</span> </h2>
+                                <h2>Bangalore, Karnataka | <span>28th September 2021</span> </h2>
                             </div>
                         </div>
                         
@@ -70,7 +75,7 @@ function Payment() {
                                         <h3 >Total Basefare</h3>
                                     </div>
                                     <div className="base-fair">
-                                        <h3>1498</h3>
+                                        <h3>945</h3>
                                     </div>
                                 </div>
                                         <hr style={{marginTop:"10px"}} />
@@ -103,7 +108,7 @@ function Payment() {
                                         <h3>Total Basefare</h3>
                                     </div>
                                     <div className="base-fair">
-                                        <h3>1470</h3>
+                                                <h3>{seat1[0]}</h3>
                                     </div>
                                 </div>
                                 </div>

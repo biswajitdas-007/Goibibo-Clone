@@ -1,7 +1,7 @@
 import React from "react";
 import "./Bus.css";
 import Footer from "../Footer/Footer";
-
+import {Link} from "react-router-dom"
 export default function Bus() {
     return (
         <div style={{padding:"0", margin:"0"}}>   
@@ -55,7 +55,7 @@ export default function Bus() {
 
                     </div>
                     <div className="div-sersch-bus">
-                        < button className="btn-search-bus">SEARCH BUS</button>
+                        <Link to="/bus">< button className="btn-search-bus">SEARCH BUS</button></Link>
                     </div>
                 </div>
                 
