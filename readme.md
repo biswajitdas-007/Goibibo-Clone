@@ -1,20 +1,20 @@
-# How to Run Project
-Clone the app
-```
-git clone <url>
-```
-How to run Backend:
-```
-cd backend
-npm install
-npm run server
-```
-How to run Frontend:
-```
-cd goibibo 
-npm install
-npm start
-```
+ ### How to Run Project
+  Clone the app
+  ```
+  git clone <url>
+  ```
+  How to run Backend:
+  ```
+  cd backend
+  npm install
+  npm run server
+  ```
+  How to run Frontend:
+  ```
+  cd goibibo 
+  npm install
+  npm start
+  ```
 
 # Goibibo Clone :sunglasses:
 
