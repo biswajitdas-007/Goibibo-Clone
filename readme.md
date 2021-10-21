@@ -1,3 +1,20 @@
+# How to Run Project
+Clone the app
+```
+git clone <url>
+```
+How to run Backend:
+```
+cd backend
+npm install
+npm run server
+```
+How to run Frontend:
+```
+cd goibibo 
+npm install
+npm start
+```
 
 # Goibibo Clone :sunglasses:
 
@@ -40,7 +57,7 @@
 ![Landing Page](https://github.com/biswajitdas-007/Goibibo-Clone/blob/main/goibibo/src/Screenshots/WhatsApp%20Image%202021-10-03%20at%2019.27.11.jpeg?raw=true)
 
 ```
-  This is our landing page, where users can search buses between two different cities.
+  This is our landing page, where users can search buses between two different cities. For now we just added Bangaluru to Goa route buses data.
 ```
 
 - **Login/SignUp Page**
@@ -57,7 +74,7 @@
 ![Bus Details Page](https://github.com/biswajitdas-007/Goibibo-Clone/blob/main/goibibo/src/Screenshots/WhatsApp%20Image%202021-10-03%20at%2019.37.53.jpeg?raw=true)
 
 ```
-  This section shows the available buses running between those two cities which the user entered.
+  This section shows the available buses running between Bangalore to Goa route buses.
 ```
 
 - **Seat Selection Page**
@@ -78,7 +95,7 @@
   After entering the necessary details and complete his payment process user can successfully book his ticket.
 ```
 
-### About
+### Conclusion
 
 > We learned so many things while building this project and working in a team always makes us more collaborative. We build this project within 6 days and we are trying to add more functionalities on it and makes the UI more effective. Thank You.
 
