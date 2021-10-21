@@ -28,7 +28,10 @@ function App() {
             marginTop: "5%",
           }}
         >
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"></img>
+          <img
+            alt=""
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"
+          ></img>
         </div>
       </Route>
       <Route path="/hotels">
@@ -40,7 +43,10 @@ function App() {
             marginTop: "5%",
           }}
         >
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"></img>
+          <img
+            alt=""
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"
+          ></img>
         </div>
       </Route>
       <Route path="/trains">
@@ -52,7 +58,10 @@ function App() {
             marginTop: "5%",
           }}
         >
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"></img>
+          <img
+            alt=""
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"
+          ></img>
         </div>
       </Route>
       <Route path="/cabs">
@@ -64,7 +73,10 @@ function App() {
             marginTop: "5%",
           }}
         >
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"></img>
+          <img
+            alt=""
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"
+          ></img>
         </div>
       </Route>
     </div>

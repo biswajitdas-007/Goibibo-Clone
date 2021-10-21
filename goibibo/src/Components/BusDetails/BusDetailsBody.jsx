@@ -4,7 +4,7 @@ import { HeaderCheckbox } from "./HeaderCheckbox"
 import { useContext } from "react";
 import { AuthContext } from "../../Context/FilterContext";
 function BusDetailsBody() {
-    const { fetchdata, handleFilter,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2 } = useContext(AuthContext);
+    const {  handleFilter,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2 } = useContext(AuthContext);
     return (
             
         <div>
@@ -21,13 +21,13 @@ function BusDetailsBody() {
                                 <div className="fzifhO">
                                     <div className="jfGVSI">
                                         <span className="dIWGnO">Filters</span>
-                                        <a onClick={handleReset} className="dafNvA">Reset All</a>
+                                        <a onClick={handleReset} className="dafNvA" href>Reset All</a>
 
                                     </div>
                                 <div className="jfgoXB">
                                     <div className="dJEHuf">
                                         <span className="dIeNlA">popular</span>
-                                        <a onClick={handleReset} className="dafNvA">Reset</a>
+                                        <a onClick={handleReset} className="dafNvA" href>Reset</a>
                                     </div>
                                     <div className="dZsEaZ">
                                         <HeaderCheckbox></HeaderCheckbox>
@@ -37,7 +37,7 @@ function BusDetailsBody() {
                                 <div className="jfgoXB">
                                     <div className="dJEHuf">
                                         <span className="dIeNlA">Bus Type</span>
-                                        <div onClick={handleReset}><a className="dafNvA">Reset</a></div>
+                                        <div onClick={handleReset}><a className="dafNvA" href>Reset</a></div>
 
                                     </div>
                                     <div className="faQIkU">
@@ -87,7 +87,7 @@ function BusDetailsBody() {
                                 <div className="jfgoXB">
                                     <div className="dJEHuf">
                                         <span className="dIeNlA">Departure Time</span>
-                                        <div onClick={handleReset}><a className="dafNvA">Reset</a></div>
+                                        <div onClick={handleReset}><a className="dafNvA" href>Reset</a></div>
 
                                     </div>
                                     <div className="faQIkU">
@@ -102,7 +102,7 @@ function BusDetailsBody() {
                                 <div className="jfgoXB">
                                     <div className="dJEHuf">
                                         <span className="dIeNlA">Arrival Time</span>
-                                        <div onClick={handleReset}><a className="dafNvA">Reset</a></div>
+                                        <div onClick={handleReset}><a className="dafNvA" href>Reset</a></div>
 
                                     </div>
                                     <div className="faQIkU">
@@ -123,7 +123,7 @@ function BusDetailsBody() {
                         <div className="righside-start">
                             <div className="dWsOPQ">
                                 <div className="miEV"><span>Showing</span><span className="bold">10 buses</span></div>
-                                <div className="dxDNBd"><a>Next Day</a></div>
+                                <div className="dxDNBd"><a href>Next Day</a></div>
                             </div>
                             <div className="cpuulD">
                                 <div className="sortby-div"><span className="sortny-span">Sortby:</span></div>

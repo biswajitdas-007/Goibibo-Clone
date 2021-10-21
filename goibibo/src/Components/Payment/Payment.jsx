@@ -55,7 +55,7 @@ function Payment() {
                                 <h2>Review your Booking</h2>
                             </div>
                             <div>
-                                <h2>Bangalore, Karnataka | <span>28th September 2021</span> </h2>
+                                <h2>Bangalore, Karnataka | <span>3rd October 2021</span> </h2>
                             </div>
                         </div>
                         

@@ -10,49 +10,49 @@ function Footer() {
                     <p>Popular Bus</p>
                     <p>Routes</p>
                     <div className="links">
-                    <a href="">Delhi to Manali Bus</a>
-                    <a href="">Jaipur to Delhi Bus</a>
-                    <a href="">Chandigarh to Delhi Bus</a>
-                    <a href="">Bengaluru to Goa Bus</a>
-                    <a href="">Mumbai to Goa Bus</a>
-                    <a href="">Delhi to Dehradun Bus</a>
-                    <a href="">Delhi to Chandigarh Bus</a>
-                    <a href="">Bengaluru to Chennai Bus</a>
-                    <a href="">Hyderabad to Bengaluru Bus</a>
-                        <a href="">Bengaluru to Hyderabad Bus</a>
-                        <a href="">Delhi to Jaipur Bus</a>
-                        <a href="">Chennai to Bengaluru Bus</a>
-                        <a href="">Indore to Bhopal Bus</a>
-                        <a href="">Delhi to Shimla Bus</a>
-                        <a href="">Kolkata to Siliguri Bus</a>
-                        <a href="">Bhopal to Indore Bus</a>
-                        <a href="">Pune to Goa Bus</a>
-                        <a href="">Mumbai to Pune Bus</a>
-                        <a href="">Lucknow to Delhi Bus</a>
-                        <a href="">Chandigarh to Manali Bus</a>
+                    <a href>Delhi to Manali Bus</a>
+                    <a href>Jaipur to Delhi Bus</a>
+                    <a href>Chandigarh to Delhi Bus</a>
+                    <a href>Bengaluru to Goa Bus</a>
+                    <a href>Mumbai to Goa Bus</a>
+                    <a href>Delhi to Dehradun Bus</a>
+                    <a href>Delhi to Chandigarh Bus</a>
+                    <a href>Bengaluru to Chennai Bus</a>
+                    <a href>Hyderabad to Bengaluru Bus</a>
+                        <a href>Bengaluru to Hyderabad Bus</a>
+                        <a href>Delhi to Jaipur Bus</a>
+                        <a href>Chennai to Bengaluru Bus</a>
+                        <a href>Indore to Bhopal Bus</a>
+                        <a href>Delhi to Shimla Bus</a>
+                        <a href>Kolkata to Siliguri Bus</a>
+                        <a href>Bhopal to Indore Bus</a>
+                        <a href>Pune to Goa Bus</a>
+                        <a href>Mumbai to Pune Bus</a>
+                        <a href>Lucknow to Delhi Bus</a>
+                        <a href>Chandigarh to Manali Bus</a>
                     </div>
                 </div>
 
                 <div>
                     <p>Popular Bus Cities</p>
                     <div className="links">
-                    <a href="">Goa Bus Tickets</a>
-                    <a href="">Bangalore Bus Tickets</a>
-                    <a href="">Hyderabad Bus Tickets</a>
-                    <a href="">Chennai Bus Tickets</a>
-                    <a href="">Delhi Bus Tickets</a>
-                    <a href="">Shirdi Bus Tickets</a>
-                    <a href="">Coimbatore Bus Tickets</a>
-                    <a href="">Mumbai Bus Tickets</a>
-                    <a href="">Manali Bus Tickets</a>
-                    <a href="">Kolkata Bus Tickets</a>
-                    <a href="">Pondicherry Bus Tickets</a>
-                    <a href="">Pune Bus Tickets</a>
-                    <a href="">Vijayawada Bus Tickets</a>
-                    <a href="">Mangalore Bus Tickets</a>
-                    <a href="">Kodaikanal Bus Tickets</a>
-                    <a href="">Haridwar Bus Tickets</a>
-                        <a href="">Chandigarh Bus Tickets</a>
+                    <a href>Goa Bus Tickets</a>
+                    <a href>Bangalore Bus Tickets</a>
+                    <a href>Hyderabad Bus Tickets</a>
+                    <a href>Chennai Bus Tickets</a>
+                    <a href>Delhi Bus Tickets</a>
+                    <a href>Shirdi Bus Tickets</a>
+                    <a href>Coimbatore Bus Tickets</a>
+                    <a href>Mumbai Bus Tickets</a>
+                    <a href>Manali Bus Tickets</a>
+                    <a href>Kolkata Bus Tickets</a>
+                    <a href>Pondicherry Bus Tickets</a>
+                    <a href>Pune Bus Tickets</a>
+                    <a href>Vijayawada Bus Tickets</a>
+                    <a href>Mangalore Bus Tickets</a>
+                    <a href>Kodaikanal Bus Tickets</a>
+                    <a href>Haridwar Bus Tickets</a>
+                        <a href>Chandigarh Bus Tickets</a>
                         </div>
                 </div>
 
@@ -61,21 +61,21 @@ function Footer() {
                     <p>Popular RTC Bus</p>
                     <p>Operators</p>
                     <div className="links">
-                        <a href="">APSRTC</a>
-                        <a href="">TNSTC</a>
-                        <a href="">UPSRTC</a>
-                        <a href="">MSRTC</a>
-                        <a href="">TSRTC</a>
-                        <a href="">OSRTC</a>
-                        <a href="">HRTC</a>
-                        <a href="">SBSTC</a>
-                        <a href="">PRTC</a>
-                        <a href="">JKSRTC</a>
-                        <a href="">ASTC</a>
-                        <a href="">GSRTC</a>
-                        <a href="">RSRTC</a>
-                        <a href="">KSRTC</a>
-                        <a href="">WBSTC</a>
+                        <a href>APSRTC</a>
+                        <a href>TNSTC</a>
+                        <a href>UPSRTC</a>
+                        <a href>MSRTC</a>
+                        <a href>TSRTC</a>
+                        <a href>OSRTC</a>
+                        <a href>HRTC</a>
+                        <a href>SBSTC</a>
+                        <a href>PRTC</a>
+                        <a href>JKSRTC</a>
+                        <a href>ASTC</a>
+                        <a href>GSRTC</a>
+                        <a href>RSRTC</a>
+                        <a href>KSRTC</a>
+                        <a href>WBSTC</a>
                         </div>
                 </div>
                 
@@ -84,28 +84,28 @@ function Footer() {
                     <p>Popular Bus</p>
                     <p>Operators</p>
                     <div className="links">
-                        <a href="">Vrl travels Bus</a>
-                        <a href="">Greenline travels and holidays Bus</a>
-                        <a href="">Neeta travels Bus</a>
-                        <a href="">Hans travels Bus</a>
-                        <a href="">Shrinath® travel agency pvt. ltd. Bus</a>
-                        <a href="">A p tourism (bhadradri tours & travels) Bus</a>
-                        <a href="">Kaveri travels Bus</a>
-                        <a href="">Parveen travels Bus</a>
-                        <a href="">K.p.n Bus</a>
-                        <a href="">Kallada travels (suresh kallada) Bus</a>
-                        <a href="">Shree khurana travels Bus</a>
-                        <a href="">Konduskar travels pvt. ltd. new Bus</a>
-                        <a href="">Srm transports Bus</a>
-                        <a href="">Eagle travels Bus</a>
-                        <a href="">Vivegam travels Bus</a>
-                        <a href="">Universal travels Bus</a>
-                        <a href="">Svr tours and travels(apple i bus travels) Bus</a>
-                        <a href="">Saini travels pvt ltd Bus</a>
-                        <a href="">Mjt travels Bus</a>
-                        <a href="">Diwakar travels Bus</a>
-                        <a href="">Kesineni travels Bus</a>
-                        <a href="">Prasanna travels Bus</a>
+                        <a href>Vrl travels Bus</a>
+                        <a href>Greenline travels and holidays Bus</a>
+                        <a href>Neeta travels Bus</a>
+                        <a href>Hans travels Bus</a>
+                        <a href>Shrinath® travel agency pvt. ltd. Bus</a>
+                        <a href>A p tourism (bhadradri tours & travels) Bus</a>
+                        <a href>Kaveri travels Bus</a>
+                        <a href>Parveen travels Bus</a>
+                        <a href>K.p.n Bus</a>
+                        <a href>Kallada travels (suresh kallada) Bus</a>
+                        <a href>Shree khurana travels Bus</a>
+                        <a href>Konduskar travels pvt. ltd. new Bus</a>
+                        <a href>Srm transports Bus</a>
+                        <a href>Eagle travels Bus</a>
+                        <a href>Vivegam travels Bus</a>
+                        <a href>Universal travels Bus</a>
+                        <a href>Svr tours and travels(apple i bus travels) Bus</a>
+                        <a href>Saini travels pvt ltd Bus</a>
+                        <a href>Mjt travels Bus</a>
+                        <a href>Diwakar travels Bus</a>
+                        <a href>Kesineni travels Bus</a>
+                        <a href>Prasanna travels Bus</a>
                         </div>
                 </div>
 
@@ -113,24 +113,24 @@ function Footer() {
                 <div>
                     <p>Our Products</p>
                     <div className="links">
-                    <a href="">Domestic Hotels</a>
-                    <a href="">International Hotels</a>
-                    <a href="">Domestic Flights</a>
-                    <a href="">International Flights</a>
-                    <a href="">Bus Booking</a>
-                    <a href="">Cab Booking</a>
-                    <a href="">Train Ticket Booking</a>
-                    <a href="">Route Planner</a>
-                    <a href="">Destination Planner</a>
-                    <a href="">Cheap Flights</a>
-                    <a href="">Train Running Status</a>
-                    <a href="">PNR Status</a>
-                    <a href="">Airport Cabs</a>
-                    <a href="">Hotels in India</a>
-                    <a href="">Hotels Near Me</a>
-                    <a href="">Popular Airlines</a>
-                    <a href="">IRCTC Forgot UserID</a>
-                        <a href="">IRCTC Forgot Password</a>
+                    <a href>Domestic Hotels</a>
+                    <a href>International Hotels</a>
+                    <a href>Domestic Flights</a>
+                    <a href>International Flights</a>
+                    <a href>Bus Booking</a>
+                    <a href>Cab Booking</a>
+                    <a href>Train Ticket Booking</a>
+                    <a href>Route Planner</a>
+                    <a href>Destination Planner</a>
+                    <a href>Cheap Flights</a>
+                    <a href>Train Running Status</a>
+                    <a href>PNR Status</a>
+                    <a href>Airport Cabs</a>
+                    <a href>Hotels in India</a>
+                    <a href>Hotels Near Me</a>
+                    <a href>Popular Airlines</a>
+                    <a href>IRCTC Forgot UserID</a>
+                        <a href>IRCTC Forgot Password</a>
                         </div>
                 </div>
 
@@ -139,17 +139,17 @@ function Footer() {
 
                     <div className="links">
 
-                        <a href="">About US</a>
-                        <a href="">Terms & Conditions</a>
-                        <a href="">User Agreement</a>
-                        <a href="">Privacy</a>
-                        <a href="">Contact Us</a>
-                        <a href="">Careers</a>
-                        <a href="">Corporate Social Responsibility</a>
-                        <a href="">Goibibo on Mobile</a>
-                        <a href="">Goibibo TV Advertisement</a>
-                        <a href="">Technology@Goibibo</a>
-                        <a href="">FAQs</a>
+                        <a href>About US</a>
+                        <a href>Terms & Conditions</a>
+                        <a href>User Agreement</a>
+                        <a href>Privacy</a>
+                        <a href>Contact Us</a>
+                        <a href>Careers</a>
+                        <a href>Corporate Social Responsibility</a>
+                        <a href>Goibibo on Mobile</a>
+                        <a href>Goibibo TV Advertisement</a>
+                        <a href>Technology@Goibibo</a>
+                        <a href>FAQs</a>
 
                         </div>
                 </div>

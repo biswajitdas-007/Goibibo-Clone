@@ -49,7 +49,6 @@ console.log("seat1",seat1);
     const displayPayment = () => {
         // window.backgroundColor = "#303132";
         setPayment(true)
-        const div = document.getElementById('payment-success');
         setTimeout(() => {
             setPayment(false)
         },10000)
@@ -74,7 +73,7 @@ console.log("seat1",seat1);
                                         </div>
                                         
                                         <div >
-                                            <a href="">Cancellation Policy</a>
+                                            <a href>Cancellation Policy</a>
                                         </div>
                                     </div>
                                     <hr style={{width:"100%"}}/>
@@ -94,7 +93,7 @@ console.log("seat1",seat1);
                                         <p>Boarding point details </p>
                                     </div>
                                     <div className="time">
-                                            <p>{seat1[3]} , 28th Sep 2021</p>
+                                            <p>{seat1[3]} , Oct 3, 2021</p>
                                     </div>
                                     <div>
                         <h2>{seat1[2]}</h2>
@@ -108,7 +107,7 @@ console.log("seat1",seat1);
                                         <p>Dropping point details </p>
                                     </div>
                                     <div className="time">
-                                        <p>{seat1[5]}, 28th Sep 2021</p>
+                                        <p>{seat1[5]}, Oct 5, 2021</p>
                                     </div>
                                     <div>
                                         <h2>{seat1[4]}</h2>

@@ -137,7 +137,7 @@ for (let i = 0; i < ar2.length; i++){
                 if (e.target.value === el.popular[0] || e.target.value === el.popular[1]) {
                     return el;
                 }
-            
+            return 0;
             })
             if (arr.length === 0) {
                 setEmpty(true);
@@ -160,7 +160,7 @@ for (let i = 0; i < ar2.length; i++){
             if (e === el.type[0] || e === el.type[1] || e === el.type[2] || e===el.type[3]) {
                 return el;
             }
-            
+            return 0;
         })
         if (arr2.length === 0) {
             setEmpty(true);
@@ -193,42 +193,42 @@ for (let i = 0; i < ar2.length; i++){
                     
                     return el;
                 }
-                
+               return 0;
             })
         }
         else if (e === "6am-12noon") {
-            var arr3 = fetchdata.filter((el) => {
+             arr3 = fetchdata.filter((el) => {
                 if (twodigit(el.source_t) > 6 && twodigit(el.source_t) < 12) {
                     
                     
                     return el;
                 }
-                
+                return 0;
             })
             
         }
         else if(e==="12noon-6pm"){
-            var arr3 = fetchdata.filter((el) => {
+             arr3 = fetchdata.filter((el) => {
                 if (twodigit(el.source_t) > 12 && twodigit(el.source_t) < 18) {
                    
                     return el;
                 }
-                
+                return 0;
             })
 
         }
         else if(e==="6pm-12mid"){
-            var arr3 = fetchdata.filter((el) => {
+             arr3 = fetchdata.filter((el) => {
                 if (twodigit(el.source_t) > 18) {
                   
                     return el;
                 }
-                
+                return 0;
             })
 
         }
         else {
-            var arr3 = [];
+             arr3 = [];
             return arr3;
         }
         if (arr3.length === 0) {
@@ -256,41 +256,41 @@ for (let i = 0; i < ar2.length; i++){
                     
                     return el;
                 }
-                
+                return 0;
             })
         }
         else if (e === "6am-12noon") {
-            var arr4 = fetchdata.filter((el) => {
+             arr4 = fetchdata.filter((el) => {
                 if (twodigit(el.destination_t) >= 6 && twodigit(el.destination_t) < 12) {
                     
                     return el;
                 }
-                
+                return 0;
             })
             
         }
         else if(e==="12noon-6pm"){
-            var arr4 = fetchdata.filter((el) => {
+             arr4 = fetchdata.filter((el) => {
                 if (twodigit(el.destination_t) > 12 && twodigit(el.destination_t) < 18) {
                     
                     return el;
                 }
-                
+                return 0;
             })
 
         }
         else if(e==="6pm-12mid"){
-            var arr4 = fetchdata.filter((el) => {
+             arr4 = fetchdata.filter((el) => {
                 if (twodigit(el.destination_t) >= 18) {
                     console.log("6 to 12mid")
                     return el;
                 }
-                
+                return 0;
             })
 
         }
         else {
-            var arr4 = [];
+             arr4 = [];
             return arr4;
         }
         if (arr4.length === 0) {

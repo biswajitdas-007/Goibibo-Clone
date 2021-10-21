@@ -21,7 +21,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+ initializeApp(firebaseConfig);
   const [number, setNumber] = useState("");
     const handleChange = (e) => {
       console.log(e.target.value)
@@ -179,7 +179,7 @@ const appVerifier = window.recaptchaVerifier;
                             </form>
                         </div>
                         <div>
-                            <p className="privacy-policy">By proceeding, you agree to GoIbibo’s <a href="">Privacy Policy</a>, <a href="">User Agreement</a>  and <a href="">Terms of Service</a></p>
+                            <p className="privacy-policy">By proceeding, you agree to GoIbibo’s <a href>Privacy Policy</a>, <a href>User Agreement</a>  and <a href>Terms of Service</a></p>
                         </div>
                     </div>
                 </div>

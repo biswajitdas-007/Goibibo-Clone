@@ -25,7 +25,7 @@ export default function Businfo() {
     useEffect(() => {
         SetData(fetchdata)
         
-    },[])
+    },[fetchdata])
 
       useEffect(() => {
         console.log("card:",card)
@@ -116,10 +116,10 @@ export default function Businfo() {
                         <div className="jQlYhQ ">
                             <Link className=" bQcslY" to="/bus/points" onClick={() => {
                                                             setseat_status(!seat_status)
-                                        }}>{seat_status&&el.id===card?"":"Boarding &amp; Dropping Points"}</Link>
+                                        }}>{seat_status&&el.id===card?"":"Boarding & Dropping Points"}</Link>
                             <Link className=" bQcslY" to="/bus/amenities" onClick={() => {
                                                             setseat_status(!seat_status)
-                                        }}>{seat_status&&el.id===card?"":"Amenities, Policies &amp; Bus Details"}</Link>
+                                        }}>{seat_status&&el.id===card?"":"Amenities, Policies & Bus Details"}</Link>
                         </div>
                     </div>
                     {seat_status&&el.id===card?<SelectSeatNavbar bus={el}></SelectSeatNavbar>:""}

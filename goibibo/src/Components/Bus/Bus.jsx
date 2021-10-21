@@ -17,7 +17,7 @@ export default function Bus() {
                     <div>
                         <div className="from-section">
                             <label>FROM</label>
-                            <input type="text" name="" className="input-from" />
+                            <input type="text" name=""  className="input-from" />
 
                         </div>
                         
@@ -25,7 +25,7 @@ export default function Bus() {
                     <div>
                         <div className="from-section">
                             <label>TO</label>
-                            <input type="text" name="" className="input-from" />
+                            <input type="text" name=""  className="input-from" />
 
                         </div>
                         
@@ -33,9 +33,9 @@ export default function Bus() {
                     <div className="date-travel">
                         <label htmlFor="">Travel Date</label>
                         <div className="datewrapper">
-                            <input className="inp-date" type="text" name="" id=""/>
+                            <input className="inp-date" value="Oct 3, 2021" type="text" name="" id=""/>
                             <div className="date-tomorrow">
-                                <span className="span"  >Today,29 sep</span>
+                                <span className="span"  >Today,Oct 3, 2021</span>
                                 <span className="span">Tommorrow</span>
 
                             </div>
@@ -49,7 +49,7 @@ export default function Bus() {
                             <span style={{fontSize:"14px", marginTop:"5px", fontWeight:"600"}}>Social Distancing</span>
                         </div>
                                 <div style={{ width:"70%" }}>
-                                        <span className="pad">Introducing Distancing in select bus. <a href="">know more</a></span>
+                                        <span className="pad">Introducing Distancing in select bus. <a href>know more</a></span>
                             </div>
                         
 
@@ -92,7 +92,7 @@ export default function Bus() {
                 <div>
                <h4> Delhi Buses</h4>
                     <p className="to">To:
-                        <a href="">Manali, Chandigarh, Jaipur, Dehradun</a>
+                        <a href>Manali, Chandigarh, Jaipur, Dehradun</a>
                     </p>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ export default function Bus() {
                 <div>
                <h4> Mumbai Buses</h4>
                     <p className="to">To:
-                        <a href="">Goa, Pune, Bangalore, Shirdi</a>
+                        <a href>Goa, Pune, Bangalore, Shirdi</a>
                     </p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Bus() {
                 <div>
                <h4> Chennai Buses</h4>
                     <p className="to">To:
-                        <a href="">Coimbatore, Pondicherry, Bangalore</a>
+                        <a href>Coimbatore, Pondicherry, Bangalore</a>
                     </p>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ export default function Bus() {
                 <div>
                <h4> Bangalore Buses</h4>
                     <p className="to">To:
-                        <a href="">Mumbai, Hyderabad, Chennai, Goa</a>
+                        <a href>Mumbai, Hyderabad, Chennai, Goa</a>
                     </p>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ export default function Bus() {
                 <div>
                <h4> Hyderabad Buses</h4>
                     <p className="to">To:
-                        <a href="">Mumbai, Chennai, Bangalore, Goa</a>
+                        <a href>Mumbai, Chennai, Bangalore, Goa</a>
                     </p>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Bus() {
                 <div>
                <h4> Pune Buses</h4>
                     <p className="to">To:
-                        <a href="">Mumbai, Shirdi, Bangalore, Goa</a>
+                        <a href>Mumbai, Shirdi, Bangalore, Goa</a>
                     </p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ export default function Bus() {
                 <div>
                <h4> Kolkata Buses </h4>
                     <p className="to">To:
-                        <a href="">Digha, Siliguri, Durgapur, Asansol</a>
+                        <a href>Digha, Siliguri, Durgapur, Asansol</a>
                     </p>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ export default function Bus() {
                 <div>
                <h4> Chandigarh Buses </h4>
                     <p className="to">To:
-                        <a href="">Manali, Delhi, Shimla, Dehradun</a>
+                        <a href>Manali, Delhi, Shimla, Dehradun</a>
                     </p>
                     </div>
                 </div>
@@ -175,7 +175,7 @@ export default function Bus() {
                 <div>
                <h4> Coimbatore Busess </h4>
                     <p className="to">To:
-                        <a href="">Chennai, Ooty, Bangalore, Mysore</a>
+                        <a href>Chennai, Ooty, Bangalore, Mysore</a>
                     </p>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ export default function BusDetailsNav() {
                             <div className="hElIQi">
                                  <label className="gVMaoU">From</label>
                             <div>
-                                <input className="bAOkFZ" value="Bengaleru" type="text" name="" id="" />
+                                <input className="bAOkFZ" value="Bangaluru" type="text" name="" id="" />
                             </div>
                             </div>
                             <div className="cgCpSm">
@@ -26,7 +26,7 @@ export default function BusDetailsNav() {
                             </div>
                             <div className="jjMAvI">
                                 <label className="gVMaoU">DEPARTURE DATE</label>
-                                <input className="iNtjfJ" type="text" name="" id="" />
+                                <input className="iNtjfJ" type="text" name="" id="" value="Oct 3, 2021"/>
                             </div>
                             
                         </div>
