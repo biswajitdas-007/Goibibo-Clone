@@ -1,4 +1,4 @@
- ### How to Run Project
+ # How to Run Project
   Clone the app
   ```
   git clone <url>
