@@ -11,7 +11,7 @@ export function AuthProvider({ children }) {
     const [seat1, setSeat] = useState([]);
     const [check, setCheck] = useState(true);
     useEffect(() => {
-        axios.get("http://localhost:3001/bus")
+        axios.get("https://serene-dusk-24596.herokuapp.com/bus")
             .then((res) => {
                 
                 console.log("data: ",res.data.data);

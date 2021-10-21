@@ -8,7 +8,7 @@ export const BusContextProvider = ({ children}) => {
 console.log("At Context");
   const fetchBuses = () => {
     axios
-      .get(`http://localhost:3001/bus`)
+      .get(`https://serene-dusk-24596.herokuapp.com/bus`)
         .then((res) => {
            console.log("res: ", res.data);
         setBuses(res.data.data);

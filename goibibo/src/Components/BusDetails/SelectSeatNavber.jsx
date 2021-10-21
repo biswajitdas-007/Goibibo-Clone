@@ -14,7 +14,7 @@ function SelectSeatNavbar() {
   const fetchBuses = () => {
     setLoadding(true);
     axios
-      .get(`http://localhost:3001/bus`)
+      .get(`https://serene-dusk-24596.herokuapp.com/bus`)
       .then((res) => {
         console.log(res.data);
         setBuses(res.data.data);
