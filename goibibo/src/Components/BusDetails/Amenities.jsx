@@ -14,7 +14,7 @@ import scanner from "../../public/scanner.svg";
 export const Amenities = ({ bus }) => {
     return (
         <div>
-            <div style={{ marginLeft: "40px" }}>Amenities</div>
+            <div className="marginleft">Amenities</div>
             <br/>
             <div className="Amenities">
                 

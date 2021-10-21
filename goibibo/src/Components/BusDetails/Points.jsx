@@ -6,7 +6,7 @@ export const Points = ({bus}) => {
     <div className="points">
       <div>
             <div className="boarding">
-              <h3 style={{marginBottom: "10px"}}>Boarding Point</h3>
+              <h3 className="h3">Boarding Point</h3>
                       <div className="boarding_point">
               
                               {bus.boarding_point.map((i) =>
@@ -18,7 +18,7 @@ export const Points = ({bus}) => {
             </div>
             </div>
             <div className="dropping">
-              <h3 style={{marginBottom: "10px"}}>Dropping Point</h3>
+              <h3 className="h3">Dropping Point</h3>
                       <div className="boarding_point">
                               {bus.dropping_point.map((i) =>
                               (<div >
