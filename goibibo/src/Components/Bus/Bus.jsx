@@ -1,10 +1,11 @@
 import React from "react";
 import "./Bus.css";
 import Footer from "../Footer/Footer";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import styles from "./BusStyle.module.css";
 export default function Bus() {
     return (
-        <div style={{padding:"0", margin:"0"}}>   
+        <div className={styles.mainDiv}>   
             <div className="Home">
              <div className="background-col" ></div>
             <div className="background-col2"></div>
@@ -44,11 +45,11 @@ export default function Bus() {
                     </div>
                     <div className="lower-part-destination">
                     
-                                    <div style={{ display:"flex", height:"30px", background:"#E8F7EA", paddingRight:"5px"}}>
-                                        <img  src="https://gos3.ibcdn.com/social-distance-small-1592916992.png" alt="" style={{height:"20px", marginTop:"5px"}} />
-                            <span style={{fontSize:"14px", marginTop:"5px", fontWeight:"600"}}>Social Distancing</span>
+                                    <div className={styles.lowerPartDestinationChild}>
+                                        <img  src="https://gos3.ibcdn.com/social-distance-small-1592916992.png" alt="" />
+                            <span>Social Distancing</span>
                         </div>
-                                <div style={{ width:"70%" }}>
+                                <div className={styles.knowMore}>
                                         <span className="pad">Introducing Distancing in select bus. <a href>know more</a></span>
                             </div>
                         
