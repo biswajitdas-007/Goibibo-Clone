@@ -10,6 +10,10 @@ export function AuthProvider({ children }) {
     const [empty, setEmpty] = useState(false);
     const [seat1, setSeat] = useState([]);
     const [check, setCheck] = useState(true);
+    const [initial, setInitial] = useState(true);
+    const [best, setBest] = useState(false);
+    const [check1, setCheck1] = useState(true);
+    const [initial1, setInitial1] = useState(true);
     useEffect(() => {
         axios.get("https://serene-dusk-24596.herokuapp.com/bus")
             .then((res) => {
@@ -74,12 +78,33 @@ for (let i = 0; i < ar2.length; i++){
             return el;
         })
         let output = (a, b) => {
-            return outputF(a.duration)-outputF(b.duration)
+            return a.rating-b.rating
             
         }
-        Fastest.sort(output);
+        let output1 = (a, b) => {
+            return b.rating-a.rating
+        }
+        check1 ? (
+           <>    {setInitial1(false)}
+                {Fastest.sort(output)}
+                {setCheck1(false)}
+               
+                </>
+            
+                
+               
+        ) :
+                
+                
+            (<>
+                {setInitial1(false)}
+                {Fastest.sort(output1)}
+                {setCheck1(true)}
+                
+                </>
+            
+            )
         setfetchData(Fastest);
-
         
         
     
@@ -102,7 +127,7 @@ for (let i = 0; i < ar2.length; i++){
             return b.rating-a.rating
         }
         check ? (
-           <>
+           <>   {setInitial(false)}
                 {ar1.sort(output)}
                 {setCheck(false)}
                 </>
@@ -110,7 +135,7 @@ for (let i = 0; i < ar2.length; i++){
                 
                
         ) :
-            (<>
+            (<> {setInitial(false)}
                 {ar1.sort(output1)}
                 {setCheck(true)}
                 </>
@@ -119,17 +144,16 @@ for (let i = 0; i < ar2.length; i++){
         setfetchData(ar1);
     }
     const handleFilter2 = () => {
-        const ar1 = fetchdata.filter((el) => {
-            return el.rating>=4;
+         const ar2 = fetchdata.map((el) => {
+            return el;
         })
-       
-        
-        
+        let output = (a, b) => {
+            return b.rating-a.rating
             
-                
-               
-        
-        setfetchData(ar1);
+        }
+        ar2.sort(output)
+        setBest(true);
+        setfetchData(ar2);
     }
     const handlechange2 = (e) => {
         if (e.target.checked === true) {
@@ -175,11 +199,16 @@ for (let i = 0; i < ar2.length; i++){
       
         
     }
-    const handleReset = () => {
+     const handleReset = () => {
         setfetchData(option);
-        setEmpty(false)
+         setEmpty(false)
+         setInitial1(true);
         componentDidMount()
+         setInitial(true);
+         
+        setBest(false);
     }
+    
     const handleTime = (e) => {
         function twodigit(t) {
             let arr = t.split(":").map(Number);
@@ -308,7 +337,7 @@ for (let i = 0; i < ar2.length; i++){
 
 
     return (
-        <AuthContext.Provider value={{empty,fetchdata,seat1,setSeat,handle_seat,handleFilter,handlechange2,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2}}>
+        <AuthContext.Provider value={{empty,fetchdata,seat1,setSeat,handle_seat,handleFilter,handlechange2,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2,check,initial,check1,initial1,best}}>
             {children}
         </AuthContext.Provider>
     )
