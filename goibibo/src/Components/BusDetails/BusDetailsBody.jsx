@@ -4,7 +4,7 @@ import { HeaderCheckbox } from "./HeaderCheckbox"
 import { useContext } from "react";
 import { AuthContext } from "../../Context/FilterContext";
 function BusDetailsBody() {
-    const {  handleFilter,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2 } = useContext(AuthContext);
+    const {  handleFilter,handledivclick,handleReset,handleTime,handleTime2,handlePrice,handleFastest,handleFilter2,check,initial,best,check1,initial1 } = useContext(AuthContext);
     return (
             
         <div>
@@ -128,11 +128,17 @@ function BusDetailsBody() {
                             <div className="cpuulD">
                                 <div className="sortby-div"><span className="sortny-span">Sortby:</span></div>
                                 <div className="hAYLvq">
-                                <span onClick={handleFilter2} className="span-br">BEST</span>
-                                <span onClick={handleFilter} className="span-br">RATING</span>
+                                    <span onClick={handleFilter2} className="span-br">BEST
+                                          {best?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1rem" height="1rem" fill="#2276e3" class="ArrowDownIcon-sc-ch36d8-0 TFcKm"><path d="M28.444 17.06l-2.923-3.093-7.445 7.865V1.779h-4.153v20.053l-7.442-7.861-2.926 3.093 12.444 13.159L28.443 17.06z"></path></svg>:""}
+                                    
+                                    </span>
+                               
+                                    <span onClick={handleFilter} className="span-br">RATING
+                                        {initial?"":check?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1rem" height="1rem" fill="#2276e3" class="ArrowDownIcon-sc-ch36d8-0 TFcKm"><path d="M28.444 17.06l-2.923-3.093-7.445 7.865V1.779h-4.153v20.053l-7.442-7.861-2.926 3.093 12.444 13.159L28.443 17.06z"></path></svg>:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1rem" height="1rem" fill="#2276e3" class="ArrowUpIcon-sc-17mwiam-0 gOPeJj"><path d="M3.556 14.94l2.923 3.093 7.445-7.865v20.053h4.149V10.168l7.449 7.861 2.923-3.093L16.001 1.777 3.557 14.94z"></path></svg>}</span>
                                 <span className="span-br">DEPARTURE</span>
                                 <span className="span-br">ARRIVAL</span>
-                                <span onClick={handleFastest} className="span-br">FASTEST</span>
+                                    <span onClick={handleFastest} className="span-br">FASTEST
+                                    {initial1?"":check1?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1rem" height="1rem" fill="#2276e3" class="ArrowDownIcon-sc-ch36d8-0 TFcKm"><path d="M28.444 17.06l-2.923-3.093-7.445 7.865V1.779h-4.153v20.053l-7.442-7.861-2.926 3.093 12.444 13.159L28.443 17.06z"></path></svg>:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1rem" height="1rem" fill="#2276e3" class="ArrowUpIcon-sc-17mwiam-0 gOPeJj"><path d="M3.556 14.94l2.923 3.093 7.445-7.865v20.053h4.149V10.168l7.449 7.861 2.923-3.093L16.001 1.777 3.557 14.94z"></path></svg>}</span>
                                 <span onClick={handlePrice} className="span-br">CHEAPEST</span>
 
                                 </div>
