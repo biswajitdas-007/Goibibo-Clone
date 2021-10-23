@@ -1,0 +1,196 @@
+.mainDiv {
+  width: 60% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.busNameChildDiv {
+  height: 90px;
+}
+.busNameDetailsH2 {
+  font-weight: 500;
+  margin-top: 17px;
+}
+
+.busNameDetailsP {
+  margin-top: 0;
+}
+
+.safetyP {
+  margin-top: -5%;
+}
+.boardingDetails {
+  margin-top: 30px;
+}
+
+.insuranceDetails {
+  background-color: white;
+  margin-top: 3%;
+}
+.insuranceH4 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.iciciLoanP {
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.inputInsuranceLabel {
+  font-weight: bold;
+  color: #000000;
+}
+.insuranceTermAndCond {
+  color: #2276e3;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.forSpace {
+  background-color: white;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.travellerDetails {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.passengerDiv {
+  display: flex;
+  gap: 10px;
+}
+.passengerDiv > div:first-child {
+  background-color: #f3f3f4;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  color: #898b91;
+  text-align: center;
+}
+
+.passengerDiv > div:first-child > h5 {
+  padding: 0;
+  margin: 0;
+}
+.busSvg {
+  margin: 5px 0 0 0;
+}
+
+.busSvgP {
+  padding: 0;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+.userDetails {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.genderLabel {
+  font-size: 18px;
+  font-weight: 300;
+}
+.genderSelect {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none;
+  width: 150px;
+  margin-top: 10px;
+}
+.nameLabel {
+  font-size: 18px;
+  font-weight: 300;
+  width: 100px;
+}
+.nameInput {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none;
+  width: 300px;
+  margin-top: 10px;
+}
+.ageLabel {
+  font-size: 18px;
+  font-weight: 300;
+}
+.ageInput {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.emailMainDiv {
+  background-color: white;
+  padding: 10px;
+}
+.emailContainer {
+  margin-left: 10px;
+}
+.emailContainer > label {
+  font-size: 18px;
+  font-weight: 300;
+}
+.emailContainer > input {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.mobileNumberMainDiv {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mobileNumberMainDiv > label {
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+}
+.numberOptionsContainer {
+  display: flex;
+}
+.numberSelect {
+  display: flex;
+}
+.numberSelect > select {
+  border: 1px solid rgb(138, 138, 138);
+  background-color: #eef4fd;
+  height: 40px;
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 70px;
+  font-size: 15px;
+  margin-top: 11px;
+}
+.numberSelectInput {
+  margin-top: 1px;
+}
+.numberSelectInput > input {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 9px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 0;
+  appearance: none;
+  width: 640px;
+  height: 40px;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.divPadding {
+  padding: 10px;
+}

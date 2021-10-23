@@ -1,0 +1,79 @@
+.priceH2 {
+  padding: 10px;
+}
+#priceFareDiv {
+  display: flex;
+  gap: 55%;
+}
+hr {
+  margin-top: 10px;
+}
+.forSpace {
+  height: 10px;
+  padding: 5px;
+}
+#priceFareDiscount {
+  display: flex;
+}
+.priceTotal {
+  margin-left: 30px;
+}
+#priceFareMainDiv {
+  height: 100%;
+}
+.spaceBetween {
+  padding: 5px;
+}
+.offersMainDiv {
+  background-color: white;
+  margin-top: 20px;
+}
+.offersName {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.collapseIcon {
+  margin-left: 100px;
+}
+.couponContainer {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px 0;
+}
+.couponContainer > div > input {
+  height: 20px;
+  width: 20px;
+}
+.couponContainer > div > h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+.couponDetailsDiv {
+  margin-top: 10px;
+}
+.couponDetailsDiv > p {
+  color: #777777;
+  font-size: 15px;
+  font-weight: 300;
+}
+.promoCodeMainDiv {
+  display: flex;
+  gap: 10px;
+}
+.promoCodeMainDiv > div > h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+.spaceDiv {
+  height: 100%;
+  margin-top: 95%;
+}
+.footerDiv {
+  display: block;
+  margin-top: 15%;
+  color: black;
+}

@@ -163,9 +163,7 @@ const appVerifier = window.recaptchaVerifier;
                                     <button type="submit" className="login-button">Continue</button>
                                 </div>
                             </form>
-                            <div style={{
-                                height: "20px"
-                            }}></div>
+                            <div className="for-space"></div>
                             <form onSubmit={onSubmitOtp}>
                                 <div id="sign-in-button"></div>
                                 <div className="login-details-div">
