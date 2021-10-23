@@ -33,7 +33,7 @@ npm start
 - **[Pranali Malkar](https://github.com/Pranali-5)**
 - **[Piyush Ranjan](https://github.com/piyush425)**
 - **[Sunil Kumar Gajula](https://github.com/gsunil1996)**
-- **[Biswajit Das] (https://github.com/biswajitdas-007)**
+- **[Biswajit Das](https://github.com/biswajitdas-007)**
 
 ---
 
