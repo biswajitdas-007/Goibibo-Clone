@@ -84,6 +84,7 @@ hr {
   text-decoration: none;
 }
 .safety {
+  display: flex;
   margin-top: 22px !important;
   margin-left: 10px !important;
   padding: 5px !important;
@@ -254,6 +255,8 @@ hr {
   height: 20px !important;
 }
 .seats-selected {
+  display: flex;
+  margin-top: 10px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -347,6 +350,7 @@ hr {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 10px;
 }
 .date > div:first-child {
   width: 100%;

@@ -3,7 +3,7 @@ import Bus from "./Components/Bus/Bus";
 import { Payment } from "./Components/Payment/Payment";
 import { Route } from "react-router-dom";
 import { BusDetails } from "./Components/BusDetails/BusDetails";
-
+import styles from "./App.module.css";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -20,14 +20,7 @@ function App() {
         <Payment />
       </Route>
       <Route path="/flights">
-        <div
-          style={{
-            display: "flex",
-            textAlign: "center",
-            justifyContent: "center",
-            marginTop: "5%",
-          }}
-        >
+        <div className={styles.flights}>
           <img
             alt=""
             src="https://res.cloudinary.com/practicaldev/image/fetch/s--oEn9BS42--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/http://ahimsa.co.za/wp-content/uploads/2018/11/en-construction.gif"
@@ -36,12 +29,7 @@ function App() {
       </Route>
       <Route path="/hotels">
         <div
-          style={{
-            display: "flex",
-            textAlign: "center",
-            justifyContent: "center",
-            marginTop: "5%",
-          }}
+          className={styles.flights}
         >
           <img
             alt=""
@@ -51,12 +39,7 @@ function App() {
       </Route>
       <Route path="/trains">
         <div
-          style={{
-            display: "flex",
-            textAlign: "center",
-            justifyContent: "center",
-            marginTop: "5%",
-          }}
+          className={styles.flights}
         >
           <img
             alt=""
@@ -66,12 +49,7 @@ function App() {
       </Route>
       <Route path="/cabs">
         <div
-          style={{
-            display: "flex",
-            textAlign: "center",
-            justifyContent: "center",
-            marginTop: "5%",
-          }}
+          className={styles.flights}
         >
           <img
             alt=""
