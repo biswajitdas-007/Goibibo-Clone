@@ -74,15 +74,16 @@ for (let i = 0; i < ar2.length; i++){
   }
   return Number(str);
         }
+        
         const Fastest = fetchdata.map((el) => {
             return el;
         })
         let output = (a, b) => {
-            return a.rating-b.rating
+            return outputF(a.duration)-outputF(b.duration)
             
         }
         let output1 = (a, b) => {
-            return b.rating-a.rating
+            return outputF(b.duration)-outputF(a.duration)
         }
         check1 ? (
            <>    {setInitial1(false)}
