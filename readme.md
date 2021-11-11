@@ -40,8 +40,8 @@ https://github.com/biswajitdas-007/Goibibo-Clone
 
 ### Pages
 
-- `Bus Home Page`
 - `Signin Page`
+- `Bus Home Page`
 - `Payment Page`
 - `Bus details page`
 
