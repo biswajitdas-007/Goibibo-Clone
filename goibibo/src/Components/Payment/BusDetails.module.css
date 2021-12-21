@@ -3,9 +3,29 @@
   display: flex;
   flex-direction: column;
 }
-
+.busName {
+  background-color: white;
+}
 .busNameChildDiv {
-  height: 90px;
+  background-color: white;
+  padding: 0 10px;
+  height: 100%;
+  border-radius: 5px;
+}
+.seatNumber {
+  display: flex;
+  padding: 10px 0;
+  text-align: left;
+  background-color: white;
+}
+.seatSelected {
+  margin-left: -12vw;
+}
+.seatNumberDynamic {
+  margin-left: -30vw;
+}
+.hrBus {
+  margin-top: 0;
 }
 .busNameDetailsH2 {
   font-weight: 500;
@@ -31,7 +51,9 @@
   padding: 20px;
   font-size: 20px;
 }
-
+.lastRadio {
+  margin-bottom: 20px;
+}
 .iciciLoanP {
   margin: 0;
   padding: 0;
@@ -42,6 +64,9 @@
 .inputInsuranceLabel {
   font-weight: bold;
   color: #000000;
+}
+input[type="radio"] {
+  margin-left: 10px;
 }
 .insuranceTermAndCond {
   color: #2276e3;

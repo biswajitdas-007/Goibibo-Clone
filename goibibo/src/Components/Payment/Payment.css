@@ -207,6 +207,9 @@ hr {
 .price-div > div > h2 {
   font-weight: 300;
 }
+.price-collapse {
+  cursor: pointer;
+}
 .base-fair {
   height: 100%;
 }
@@ -298,6 +301,7 @@ hr {
   font-size: 12px;
   background-color: #2bbf78;
   color: white;
+  margin-left: 10%;
 }
 .radio-accept > div:first-child {
   margin: 30px 0 10px 0;

@@ -2,7 +2,6 @@ import { useState,useContext } from "react";
 import { BusDetails } from "./BusDetails";
 import Footer from "../Footer/Footer";
 import { AuthContext } from "../../Context/FilterContext"
-import "./Payment.css";
 import styles from "./Payment.module.css";
 function Payment() {
     const [hide, setHide] = useState(true);
@@ -44,43 +43,43 @@ function Payment() {
         
     }
     return (
-        <div>
+        <div style={{ padding:"0", margin:"0", width:"100%"}}>
             <div>
-                <div className="main-div-cont">
-                    <div className="header-cont">
+                <div>
+                    <div className={styles.mainContainer}>
                         <div>
-                            <div>
-                            <div>
-                                <h2>Review your Booking</h2>
+                            <div className={styles.paymentHeader}>
+                                <div>
+                                    <h2>Review your Booking</h2>
+                                </div>
+                                <div>
+                                    <h2>Bangalore, Karnataka | <span>3rd October 2021</span> </h2>
+                                </div>
                             </div>
-                            <div>
-                                <h2>Bangalore, Karnataka | <span>3rd October 2021</span> </h2>
-                            </div>
-                        </div>
                         
-                        <div className="bus-div" >
+                        <div className={styles.busDetailsContainer}>
                             <BusDetails/>
-                            <div className="price-div" >
-                                <div className="price-header">
-                                    <div className="after-text price-collapse" onClick={() => {
+                            <div className={styles.priceContainer}>
+                                <div className={styles.totalPriceContainer}>
+                                    <div onClick={() => {
                                     collapse("price")
                                 }}>
                                     <h2 className={styles.priceH2}>Price</h2>
                                 </div>
                                 <hr />
-                                <div className="collapse" id="hide">
-                                    <div className="price-fare " id={styles.priceFareDiv}>
-                                    <div className=" base-fair">
+                                <div id="hide">
+                                    <div id={styles.priceFareDiv}>
+                                    <div>
                                         <h3 >Total Basefare</h3>
                                     </div>
-                                    <div className="base-fair">
-                                        <h3>945</h3>
+                                    <div>
+                                        <h3>{seat1[0]}</h3>
                                     </div>
                                 </div>
                                         <hr />
                                         <div className={styles.forSpace}></div>
-                                <div className="price-fare" style={{height:"100%",}}>
-                                    <div id={styles.priceFareDiscount} className="price-fare price-fare-btn" >
+                                <div>
+                                    <div id={styles.priceFareDiscount} >
                                         <div >
                                             <h3>Discount</h3>
                                         </div>
@@ -89,9 +88,9 @@ function Payment() {
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div className="price-fare" id={styles.priceFareMainDiv}>
-                                    <div  className="price-fare price-fare-btn" id={styles.priceFareDiscount}>
+                                <hr />
+                                <div  id={styles.priceFareMainDiv}>
+                                    <div id={styles.priceFareDiscount}>
                                         <div >
                                             <h3>Taxes & fees</h3>
                                         </div>
@@ -99,24 +98,22 @@ function Payment() {
                                             <h3>96</h3>
                                         </div>
                                     </div>
-                                </div>
+                                            </div>
+                                            <hr />
                                     </div>
                                     <div className={styles.spaceBetween}></div>
-                                <div className="price-fare " id={styles.priceFareDiv}>
-                                    <div className="base-fair">
-                                        <h3>Total Basefare</h3>
+                                <div id={styles.priceFareDiv}>
+                                    <div c>
+                                        <h3>Final Price</h3>
                                     </div>
-                                    <div className="base-fair">
-                                                <h3>{seat1[0]}</h3>
+                                    <div>
+                                                <h3>{seat1[0]-149+96}</h3>
                                     </div>
                                 </div>
                                 </div>
                                 <div>
                                 <div className={styles.offersMainDiv}>
-                                <div className="offers-collapse price-collapse" onClick={() => {
-                                    collapse("traveller-details")
-                                    
-                                }}>
+                                <div className=" price-collapse" >
                                     <h2 className={styles.offersName}>
                                             OFFERS/GOCASH+ <span className={styles.collapceIcon}>  </span>
                                         </h2>
@@ -150,7 +147,7 @@ function Payment() {
                                                 </div>
                                                     <hr />
                                                 <div className={styles.couponDetailsDiv}>
-                                                    <p >
+                                                    <p>
                                                         GOBOB: Get FLAT 8% OFF on your Bus booking using BOB credit cards
                                                     </p>
                                                 </div>

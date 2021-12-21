@@ -1,4 +1,5 @@
-import React,{ useState } from "react"
+import React, { useState } from "react"
+import { Redirect } from "react-router-dom";
 import "./Payment.css";
 import {AuthContext} from "../../Context/FilterContext"
 import styles from "./BusDetails.module.css";
@@ -8,6 +9,7 @@ function BusDetails() {
        const { seat1 } = React.useContext(AuthContext);
 console.log("seat1",seat1);
     const [payment, setPayment] = useState(false);
+    const [redirect, setRedirect] = useState(false);
     const collapse = (value) => {
         
         if (value === "price") {
@@ -51,15 +53,16 @@ console.log("seat1",seat1);
         // window.backgroundColor = "#303132";
         setPayment(true)
         setTimeout(() => {
+            setRedirect(true);
             setPayment(false)
-        },10000)
+        },5000)
   }
     return (
         <div className={styles.mainDiv}>
             <div className="bus-name">
                                     <div className={styles.busNameChildDiv} >
                                         <div className="details">
-                                            <div className="bus-name-details">
+                                            <div className={styles.busName}>
                                                 <h2 className={styles.busNameDetailsH2}>Shree Nilamadahba travels </h2>
                                                 <p className={styles.busNameDetailsP}>A/C Seater / Sleeper (2+1)</p>
                                             </div>
@@ -74,17 +77,18 @@ console.log("seat1",seat1);
                                             <a href>Cancellation Policy</a>
                                         </div>
                                     </div>
-                                    <hr/>
+                                    <hr className={styles.hrBus} />
+                                    <div className={styles.seatNumber}>
+                                        <div>
+                                            <p className={styles.seatSelected}>Seats Selected </p>
+                                        </div>
+                                        <div>
+                                            <p className={styles.seatNumberDynamic}> <span >{seat1[1]}</span></p>
+                                        </div>
+                                    </div>
                                 </div>
                                 
-                                <div className="seats-selected">
-                                    <div>
-                                        <p>Seats Selected </p>
-                                    </div>
-                                    <div>
-                                        <p> <span>{seat1[1]}</span></p>
-                                    </div>
-                                </div>
+                                
                                 <div className="departure-cont">
                                     <div className="departure">
                                     <div className={styles.boardingDetails}>
@@ -127,7 +131,7 @@ console.log("seat1",seat1);
                                 
                                 </div>
                                 <div className={styles.insuranceDetails}>
-                                <div className="after-text price-collapse" onClick={() => {
+                                <div className="price-collapse" onClick={() => {
                                     collapse("insurance")
                                     
                                 }}>
@@ -175,7 +179,7 @@ console.log("seat1",seat1);
                                             <div>
                                                 <input type="radio" name="yes" /> <span><label className={styles.inputInsuranceLabel}>Yes, Secure my trip. I agree to the given <a href="/" className={styles.insuranceTermAndCond}>Terms and conditon</a></label></span>
                                             </div>
-                                            <div>
+                                            <div className={styles.lastRadio}>
                                                 <input type="radio" name="yes"/> <span><label className={styles.inputInsuranceLabel}>No, I am willing to risk my trip.</label></span>
                                             </div>
                                         </div>
@@ -183,7 +187,7 @@ console.log("seat1",seat1);
                                 </div>
                                 
                                 <div  className={styles.forSpace}>
-                                <div className="after-text price-collapse" onClick={() => {
+                                <div className="price-collapse" onClick={() => {
                                     collapse("traveller-details")
                                     
                                 }}>
@@ -244,12 +248,12 @@ console.log("seat1",seat1);
                                                 
                             <div className={styles.numberOptionsContainer}>
                                                     <div className={styles.numberSelect}>
-                                                    <select name="" id="" >
+                                                    <select name="" id="" required >
                                                     <option value="">91</option>
                                             </select>
                                                 </div>
                                                 <div className={styles.numberSelectInput}>
-                                                    <input type="text"  placeholder="Enter Email Address" />
+                                                    <input type="number"  placeholder="Enter your mobile number" required />
                                             </div>
                                             </div>
                                         </div>
@@ -258,7 +262,8 @@ console.log("seat1",seat1);
                                 </div>
                                 <div className="pay" onClick={displayPayment}>
                                     <div>
-                                        <h2>Pay {seat1[0]}</h2>
+                    <h2>Pay {seat1[0] - 149 + 96}</h2>
+                    {redirect && <Redirect to="/"/>}
                     {payment?<div id="payment-success" className="payment-successful">
                                 <img src="https://www.farehawker.com/airlines-group-booking/indigo/img/success.gif" alt="" />
           </div>:console.log("Payment Pending")}

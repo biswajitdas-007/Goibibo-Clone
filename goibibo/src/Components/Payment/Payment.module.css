@@ -1,9 +1,36 @@
+.mainContainer {
+  height: 100%;
+}
+.paymentHeader {
+  padding: 5%;
+  background-color: #2276e3;
+  color: white;
+}
+.paymentHeader > div:last-child {
+  margin-top: 50px;
+}
+.busDetailsContainer {
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: -50px;
+}
+.totalPriceContainer {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
 .priceH2 {
   padding: 10px;
 }
-#priceFareDiv {
+#priceFareDiv,
+#priceFareDiscount {
+  padding: 10px;
   display: flex;
-  gap: 55%;
+  justify-content: space-between;
 }
 hr {
   margin-top: 10px;
@@ -27,6 +54,7 @@ hr {
 .offersMainDiv {
   background-color: white;
   margin-top: 20px;
+  width: 100%;
 }
 .offersName {
   padding-left: 20px;
@@ -74,6 +102,6 @@ hr {
 }
 .footerDiv {
   display: block;
-  margin-top: 15%;
   color: black;
+  margin-top: -90%;
 }
